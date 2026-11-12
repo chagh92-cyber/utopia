@@ -1,0 +1,17 @@
+{
+  "target": null,
+  "target_notes": "무엇을 알릴지. 제품, 서비스, 채널, 개인 브랜드 중 하나와 한 줄 설명, 링크.",
+  "goal": null,
+  "goal_options": ["awareness", "followers", "traffic"],
+  "audience": null,
+  "tone": null,
+  "channels": [],
+  "channel_options": ["youtube_shorts", "instagram", "tiktok", "x", "threads", "naver_blog"],
+  "approval": "batch",
+  "posts_per_day": 2,
+  "publisher_connector": null,
+  "video_generation": false,
+  "timezone": "Asia/Seoul",
+  "banned_topics": [],
+  "sponsored": false
+}
