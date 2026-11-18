@@ -122,7 +122,7 @@
     {
       "id": "20261118-04",
       "title": "가입 전 꼭 할 일: 우리 집 주소로 가용 요금제 확인하기",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "재검수 통과. 서울 대기자 문장은 삭제됐고, 전 채널에 마감·신규 가입이 표기됐으며, '3분'과 #캠핑도 빠졌다. 표시, 출처, 길이(X 약 240자) 모두 문제 없음. 게시 조건: publish_by 2026-11-27(KST)을 넘기지 않는다. 예약 시각은 +09:00으로 기록한다. 검사 도구가 날짜 문자열만 비교해 UTC 표기 시 11/28 KST 게시를 놓칠 수 있다. 상세: content/20261118-04/review.md"
@@ -149,7 +149,21 @@
         "by": "auto",
         "date": "2026-11-18",
         "note": "approval=auto, 검수 통과"
-      }
+      },
+      "posts": [
+        {
+          "channel": "instagram",
+          "scheduled_at": "2026-11-20T18:00:00+09:00",
+          "post_id": "432874195",
+          "metricool_uuid": "6278687812269457608",
+          "url": null,
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=6278687812269457608"
+        }
+      ],
+      "pending_channels": [
+        "threads",
+        "x"
+      ]
     },
     {
       "id": "20261118-05",
