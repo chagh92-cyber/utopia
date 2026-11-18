@@ -26,6 +26,22 @@ const GOALS = ['awareness', 'followers', 'traffic'];
 const NEEDS_PASS = ['approved', 'scheduled', 'published', 'measured'];
 const NEEDS_BRIEF = STATUSES.filter((s) => !['idea', 'rejected'].includes(s));
 
+// 예약 시각을 한국 날짜(YYYY-MM-DD)로 바꾼다. 시간대가 없거나 읽을 수 없으면 원문 앞 10자를 쓴다.
+function kstDate(iso) {
+  const t = Date.parse(iso);
+  if (Number.isNaN(t) || !/(Z|[+-]\d{2}:?\d{2})$/.test(iso)) return iso.slice(0, 10);
+  return new Date(t + 9 * 3600 * 1000).toISOString().slice(0, 10);
+}
+
+// X 글자 수: 한글 등은 2, 라틴 문자는 1, 링크는 23으로 센다(X의 가중치 규칙을 단순화).
+function xLength(text) {
+  let n = 0;
+  const rest = text.replace(/https?:\/\/\S+/g, () => { n += 23; return ''; });
+  for (const ch of rest) n += ch.codePointAt(0) < 0x1100 ? 1 : 2;
+  return n;
+}
+const X_LIMIT = 280;
+
 const campaign = readJson('config/campaign.json');
 if (campaign) {
   if (campaign.goal !== null && !GOALS.includes(campaign.goal)) {
@@ -95,12 +111,20 @@ if (queue) {
           }
         }
       }
+      const xFile = path.join(root, 'content', item.id || '', 'x.md');
+      if (!['idea', 'rejected'].includes(item.status) && fs.existsSync(xFile)) {
+        const body = fs.readFileSync(xFile, 'utf8').split(/^# 본문[^\n]*\n/m)[1];
+        if (body !== undefined) {
+          const len = xLength(body.trim());
+          if (len > X_LIMIT) fail(`${where}: x.md 본문이 X 기준 ${len}자(한도 ${X_LIMIT})`);
+        }
+      }
       if (item.publish_by && !/^\d{4}-\d{2}-\d{2}$/.test(item.publish_by)) {
         fail(`${where}: publish_by 형식은 YYYY-MM-DD`);
       }
       if (item.publish_by && Array.isArray(item.posts)) {
         for (const post of item.posts) {
-          if (post.scheduled_at && post.scheduled_at.slice(0, 10) > item.publish_by) {
+          if (post.scheduled_at && kstDate(post.scheduled_at) > item.publish_by) {
             fail(`${where}: ${post.channel} 예약(${post.scheduled_at})이 publish_by(${item.publish_by})를 넘김`);
           }
         }
