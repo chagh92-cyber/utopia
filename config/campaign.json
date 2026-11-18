@@ -27,7 +27,7 @@
   ],
   "approval": "batch",
   "posts_per_day": 2,
-  "publisher_connector": null,
+  "publisher_connector": "Metricool",
   "video_generation": false,
   "timezone": "Asia/Seoul",
   "banned_topics": [
@@ -37,5 +37,9 @@
     "확인되지 않은 할인·리워드 금액"
   ],
   "sponsored": true,
-  "disclosure": "[추천 링크 포함] 이 글의 링크로 가입하시면 저도 스타링크 리워드를 받습니다."
+  "disclosure": "[추천 링크 포함] 이 글의 링크로 가입하시면 저도 스타링크 리워드를 받습니다.",
+  "manual_channels": [
+    "naver_blog"
+  ],
+  "manual_channels_notes": "Metricool이 지원하지 않는 채널. 게시 루틴은 이 채널을 예약하지 않고, 승인된 최종본 경로를 보고에 적어 사용자가 직접 올리게 한다."
 }

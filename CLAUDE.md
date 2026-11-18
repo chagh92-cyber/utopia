@@ -17,6 +17,8 @@
 | 성과 수집 | `routines/daily-metrics.md` | 매일 저녁 |
 | 주간 보고 | `routines/weekly-report.md` | 주 1회 |
 
+실제 예약 시간과 새 세션의 시작 절차는 `routines/schedule.md`에 있다.
+
 ## 파일 지도
 
 - `config/campaign.json`: 대상, 목표, 채널, 승인 방식. 모든 루틴이 가장 먼저 읽는다.
