@@ -8,7 +8,8 @@ tools: Read, Write, Edit, Glob, Bash
 
 ## 할 일
 
-1. `state/queue.json`에서 `approved` 상태 소재를 찾는다.
+1. `state/queue.json`에서 `approved` 상태 소재와, `scheduled`·`published` 소재 중 `pending_channels`가 남은 것을 찾는다.
+   채널 일부만 연결돼 있으면 연결된 채널만 예약하고 나머지는 `pending_channels`에 남긴다. 예약한 채널은 거기서 뺀다.
 2. `config/campaign.json`의 `publisher_connector`로 지정된 커넥터가 이 세션에 있는지 확인한다.
 3. 커넥터가 최적 게시 시간을 알려주면 그것을 쓰고, 없으면 `state/lessons.md`의 채널별 메모를 따른다.
 4. 같은 채널의 게시물은 3시간 이상 띄운다.

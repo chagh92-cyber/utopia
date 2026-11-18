@@ -3,7 +3,7 @@
     {
       "id": "20261118-01",
       "title": "스타링크 반값 할인 D-10: 첫 달 실구매비 계산표",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "재검수 통과(1차 held의 필수 수정 3건 반영). 전 채널 첫 줄과 카드 6장 상단 띠에 표시, 계산 6건 정확, 마감일 '보도 기준', 리워드는 작성자만, 이동 사용·배송비 조건 명시. 승인 전 참고: 미니의 주거용 라이트 개통 가능 여부는 정리 글 기준이고 공식 미확인(본문은 '결제 화면이 최종 기준'). 게시 조건: referral_link가 null이라 블로그 예약 불가, 프로필 링크 설정 후 게시, 유료 홍보와 남의 단톡방·게시판 게시 금지. 상세: content/20261118-01/review.md"
@@ -30,12 +30,27 @@
         "by": "user",
         "date": "2026-11-18",
         "note": "대화에서 3건 모두 승인"
-      }
+      },
+      "posts": [
+        {
+          "channel": "instagram",
+          "scheduled_at": "2026-11-19T10:00:00+09:00",
+          "post_id": "432863489",
+          "metricool_uuid": "-4689845698627484125",
+          "url": null,
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-4689845698627484125"
+        }
+      ],
+      "pending_channels": [
+        "naver_blog",
+        "threads",
+        "x"
+      ]
     },
     {
       "id": "20261118-02",
       "title": "스타링크 미니 vs 스탠다드, 내 상황엔 뭐가 맞을까",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "재검수 통과(1차 held의 필수 수정 3건 반영). 첫 줄과 카드 5장 상단 띠에 표시, 할인 기간 '보도 기준', 밖에서 쓸 때 요금제 조건 확인 문구, '외장 공유기', 출처 보강. 선택 권고: 스레드 '약 3kg'에 '(세대별 차이)'. 게시 조건: 프로필 링크 설정 후 게시, 유료 홍보 금지. 상세: content/20261118-02/review.md"
@@ -60,7 +75,20 @@
         "by": "user",
         "date": "2026-11-18",
         "note": "대화에서 3건 모두 승인"
-      }
+      },
+      "posts": [
+        {
+          "channel": "instagram",
+          "scheduled_at": "2026-11-20T10:00:00+09:00",
+          "post_id": "432863921",
+          "metricool_uuid": "-157817133042809514",
+          "url": null,
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-157817133042809514"
+        }
+      ],
+      "pending_channels": [
+        "threads"
+      ]
     },
     {
       "id": "20261118-03",
@@ -145,7 +173,7 @@
     {
       "id": "20261118-07",
       "title": "계정 소개 고정 게시물(살말테크)",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "재검수 통과(1차 held의 필수 수정 2건 반영). 캡션·X 첫 줄과 카드 4장 상단 띠에 '프로필 링크는 스타링크 추천 링크, 작성자 리워드' 표시가 있고, '광고 말고'는 '느낌 말고 숫자'로 바뀜. 프로필 bio와 체크리스트 지적도 해결. 사용자 확인: campaign.json referral_link(RC-DF-16524681-29887-13)가 본인 계정 코드인지 프로필에 걸기 전에 대조. final/ 사본은 통과한 초안과 같음(링크만 채움). 승인 후에만 사용. 상세: content/20261118-07/review.md"
@@ -170,7 +198,20 @@
         "by": "user",
         "date": "2026-11-18",
         "note": "대화에서 3건 모두 승인"
-      }
+      },
+      "posts": [
+        {
+          "channel": "instagram",
+          "scheduled_at": "2026-11-19T18:00:00+09:00",
+          "post_id": "432863830",
+          "metricool_uuid": "7793719358778524385",
+          "url": null,
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=7793719358778524385"
+        }
+      ],
+      "pending_channels": [
+        "x"
+      ]
     }
   ]
 }
