@@ -52,5 +52,14 @@ for (const id of ids) {
     fs.writeFileSync(path.join(out, f), text);
     console.log(path.relative(root, path.join(out, f)));
   }
+  // 카드 이미지의 공개 주소. 저장소가 공개라서 GitHub raw 주소로 커넥터가 이미지를 가져갈 수 있다.
+  // 푸시한 뒤에만 열린다. 순서는 카드 순서와 같다.
+  const cards = path.join(dir, 'cards');
+  if (fs.existsSync(cards) && campaign.media_base_url) {
+    const urls = fs.readdirSync(cards).filter((f) => f.endsWith('.png')).sort()
+      .map((f) => `${campaign.media_base_url.replace(/\/$/, '')}/content/${id}/cards/${f}`);
+    fs.writeFileSync(path.join(out, 'media.txt'), urls.join('\n') + '\n');
+    console.log(path.relative(root, path.join(out, 'media.txt')));
+  }
 }
 process.exit(failed ? 1 : 0);
