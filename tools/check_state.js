@@ -41,6 +41,14 @@ if (campaign) {
       if (!CHANNELS.includes(c)) fail(`campaign.json: 알 수 없는 채널 ${c}`);
     }
   }
+  if (campaign.referral_link !== null && campaign.referral_link !== undefined) {
+    let ok = false;
+    try {
+      const u = new URL(campaign.referral_link);
+      ok = u.protocol === 'https:' && /(^|\.)starlink\.com$/.test(u.hostname) && u.searchParams.get('referral');
+    } catch (e) { ok = false; }
+    if (!ok) fail('campaign.json: referral_link는 https://starlink.com 주소에 referral 값이 있어야 함');
+  }
   if (!Number.isInteger(campaign.posts_per_day) || campaign.posts_per_day < 1) {
     fail('campaign.json: posts_per_day는 1 이상의 정수여야 함');
   }

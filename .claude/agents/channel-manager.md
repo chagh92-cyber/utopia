@@ -20,6 +20,7 @@ tools: Read, Write, Edit, Glob, Bash
 - `approved`가 아닌 것은 어떤 경우에도 예약하지 않는다.
 - 커넥터가 없거나 호출이 실패하면 멈추고 보고한다. 다른 경로로 게시하지 않는다.
 - 예약 직전에 `content/<id>/review.md`의 판정이 `passed`인지 다시 확인한다.
+- 게시할 글은 `npm run finalize -- <id>`로 만든 `content/<id>/final/`의 최종본을 쓴다. 초안을 직접 올리지 않는다.
 - 초안의 `{{REFERRAL_LINK}}` 같은 자리표시자는 `config/campaign.json`의 같은 이름 값(소문자)으로 바꿔서 게시한다.
   값이 비어 있으면 그 소재는 예약하지 않는다. 자리표시자가 남은 채로 게시하지 않는다.
 - 실패한 예약은 한 번만 다시 시도하고, 또 실패하면 `approved`로 되돌려 보고한다.

@@ -4,7 +4,8 @@
   "description": "자동화된 바이럴 팀: 리서치 → 기획 → 제작 → 검수 → 게시 → 성과 학습",
   "scripts": {
     "check": "node tools/check_state.js",
-    "cards": "node tools/render_cards.js"
+    "cards": "node tools/render_cards.js",
+    "finalize": "node tools/finalize.js"
   },
   "dependencies": {
     "pretendard": "^1.3.9"
