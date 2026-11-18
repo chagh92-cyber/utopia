@@ -19,6 +19,7 @@ tools: Read, Write, Edit, Glob, Bash
 ## 지킬 것
 
 - `approved`가 아닌 것은 어떤 경우에도 예약하지 않는다.
+- 소재에 `publish_by`가 있으면 그 날짜를 넘겨 게시되도록 예약하지 않는다. 기한이 지난 미게시 채널은 `pending_channels`에서 빼고 보고한다.
 - 커넥터가 없거나 호출이 실패하면 멈추고 보고한다. 다른 경로로 게시하지 않는다.
 - 예약 직전에 `content/<id>/review.md`의 판정이 `passed`인지 다시 확인한다.
 - 게시할 글은 `npm run finalize -- <id>`로 만든 `content/<id>/final/`의 최종본을 쓴다. 초안을 직접 올리지 않는다.

@@ -45,7 +45,8 @@
         "naver_blog",
         "threads",
         "x"
-      ]
+      ],
+      "publish_by": "2026-11-27"
     },
     {
       "id": "20261118-02",
@@ -88,12 +89,17 @@
       ],
       "pending_channels": [
         "threads"
-      ]
+      ],
+      "publish_by": "2026-11-27"
     },
     {
       "id": "20261118-03",
       "title": "스타링크를 집 인터넷 대신 써도 될까: 통신 3사 유선 요금과 비교",
       "status": "drafted",
+      "review": {
+        "result": "held",
+        "notes": "표시와 수치는 브리프와 일치하고 속도 비교(둘 다 명목 최대치)는 대체로 공정. 필수 수정: (1) '값은 거의 같아요'를 할인 기간 월 요금으로 한정한다. 유선은 3년 약정 고정가이고 스타링크는 기간 미확인 신규 한정 할인가(정상 68,000원)인 데다 키트(스탠다드 275,000/미니 160,000원)를 따로 산다는 점을 카드·캡션·스레드·X에 넣는다. (2) '보도 기준 11/28까지, 신규 가입'을 표기하고, 11/27까지 게시되지 않으면 내보내지 않는다. (3) '스타링크가 답/곳이 답' 단정을 낮추고 '라이트가 우리 주소에 나오는지 확인'을 추가한다. 상세: content/20261118-03/review.md"
+      },
       "created": "2026-11-18",
       "source": "라이프인포메이션 https://www.lifeinformations.com/2026/11/3.html / KISDI Perspectives 2026-03 https://www.kisdi.re.kr/report/fileView.do?key=m2102058837181&arrMasterId=4334696&id=1935576 / 아시아타임즈 2026-11-04 / 텔레네이션 인터넷 요금 비교 2026 https://telenation.co.kr/article/%EC%A0%95%EB%B3%B4%EB%A7%88%EB%8B%B9/2/3122/",
       "share_reason": "도시 사용자에게는 '굳이?'라는 질문에 솔직하게 답하는 글이 신뢰를 준다.",
@@ -110,12 +116,17 @@
         "x"
       ],
       "updated": "2026-11-18",
-      "brief": "content/20261118-03/brief.md"
+      "brief": "content/20261118-03/brief.md",
+      "publish_by": "2026-11-27"
     },
     {
       "id": "20261118-04",
       "title": "가입 전 꼭 할 일: 우리 집 주소로 가용 요금제 확인하기",
       "status": "drafted",
+      "review": {
+        "result": "held",
+        "notes": "표시와 핵심 사실(주소 입력 시 가능 여부, 라이트 미제공 가능)은 make2t 출처와 일치. 필수 수정: (1) 카드 2 '출시 때 서울은 대기자 등록' 보도는 출처가 약하다(브리프에 매체·날짜·주소 없이 검색 요약만 있고, 원문 미확인, 약 1년 전 상황). 빼는 것을 권하고, 남기려면 출처를 브리프·카드에 적고 '2025.12 출시 당시, 지금은 주소로 확인'을 붙인다. (2) 캡션·스레드·X에도 '보도 기준 11/28까지'를 넣고, 11/27까지 게시되지 않으면 내보내지 않는다. 권고: '3분' 표현, 해시태그 #캠핑 제거. 상세: content/20261118-04/review.md"
+      },
       "created": "2026-11-18",
       "source": "make2t 설치 가능 지역 정리 https://www.make2t.kr/2026/11/starlink-korea-coverage-address-availability-2026.html (주소에 따라 주거용 라이트 미제공, 서울 대기자 등록) / make2t 34,000원 적용 확인 https://www.make2t.kr/2026/11/starlink-34000-won-address-price-check.html",
       "share_reason": "할인만 보고 샀다가 라이트 요금제가 안 되는 실수를 막아 준다.",
@@ -132,7 +143,8 @@
         "x"
       ],
       "updated": "2026-11-18",
-      "brief": "content/20261118-04/brief.md"
+      "brief": "content/20261118-04/brief.md",
+      "publish_by": "2026-11-27"
     },
     {
       "id": "20261118-05",

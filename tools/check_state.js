@@ -95,6 +95,16 @@ if (queue) {
           }
         }
       }
+      if (item.publish_by && !/^\d{4}-\d{2}-\d{2}$/.test(item.publish_by)) {
+        fail(`${where}: publish_by 형식은 YYYY-MM-DD`);
+      }
+      if (item.publish_by && Array.isArray(item.posts)) {
+        for (const post of item.posts) {
+          if (post.scheduled_at && post.scheduled_at.slice(0, 10) > item.publish_by) {
+            fail(`${where}: ${post.channel} 예약(${post.scheduled_at})이 publish_by(${item.publish_by})를 넘김`);
+          }
+        }
+      }
       if (['scheduled', 'published', 'measured'].includes(item.status)) {
         if (!Array.isArray(item.posts) || item.posts.length === 0) {
           fail(`${where}: ${item.status} 상태인데 posts가 비어 있음`);
