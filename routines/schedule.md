@@ -10,7 +10,19 @@
 | 살말 저녁 게시·성과 | 매일 19:38 | `daily-publish.md` → `daily-metrics.md` | 예약 게시, 게시 확인, 성과 수집 |
 | 살말 주간 보고 | 월요일 09:21 | `weekly-report.md` | 주간 보고, 교훈 갱신 |
 
-모든 예약 작업은 Metricool 커넥터를 쓴다. 완료 알림은 휴대폰 푸시로 받는다.
+완료 알림은 휴대폰 푸시로 받는다.
+
+등록된 예약 작업 ID(2026-11-18 등록):
+
+| 이름 | ID | Metricool 필요 |
+|---|---|---|
+| 살말 아침 제작 | `trig_01DweydHw9XoM3wKoHoiZtty` | 아니요 |
+| 살말 점심 게시 | `trig_01MfEQWgMxZ6vnwW8iTxhRFT` | 예 |
+| 살말 저녁 게시·성과 | `trig_01QtbxMkXa2e2uedxj3k8f8H` | 예 |
+| 살말 주간 보고 | `trig_018J3QKAq4jwjSQusWqZmGG2` | 있으면 사용 |
+
+세션에서 만든 예약 작업에는 커넥터를 붙일 수 없어서, Metricool이 필요한 작업은 사용자가 claude.ai의 예약 작업
+화면에서 Metricool 커넥터를 붙여야 한다. 붙기 전에는 해당 작업이 아무것도 게시하지 않고 그 사실만 보고하고 끝난다.
 
 ## 공통 시작 절차 (예약 작업 프롬프트에 그대로 들어간다)
 

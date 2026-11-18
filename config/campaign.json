@@ -44,5 +44,7 @@
   "manual_channels_notes": "Metricool이 지원하지 않는 채널. 게시 루틴은 이 채널을 예약하지 않고, 승인된 최종본 경로를 보고에 적어 사용자가 직접 올리게 한다.",
   "approval_notes": "2026-11-18 사용자가 처음부터 자동 게시를 선택. 검수 passed는 바로 approved, held는 사용자 확인.",
   "media_base_url": "https://raw.githubusercontent.com/chagh92-cyber/utopia/claude/viral-team-planning-fcrkru",
-  "media_notes": "저장소가 공개라서 카드 이미지를 이 주소로 커넥터에 넘긴다. 이미지를 바꿨으면 푸시한 뒤에 예약한다. 저장소를 비공개로 바꾸면 이 방법은 막힌다."
+  "media_notes": "저장소가 공개라서 카드 이미지를 이 주소로 커넥터에 넘긴다. 이미지를 바꿨으면 푸시한 뒤에 예약한다. 저장소를 비공개로 바꾸면 이 방법은 막힌다.",
+  "metricool_blog_id": "8202229",
+  "metricool_notes": "Metricool MCP의 blogId. 게시 전 getBrandSettings로 연결된 네트워크를 확인한다. 네트워크 연결은 사용자가 https://app.metricool.com/brands/connections?blogId=8202229 에서 한다."
 }
