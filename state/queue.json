@@ -131,6 +131,27 @@
         "naver_blog"
       ],
       "updated": "2026-11-18"
+    },
+    {
+      "id": "20261118-07",
+      "title": "계정 소개 고정 게시물(살말테크)",
+      "status": "drafted",
+      "created": "2026-11-18",
+      "source": "자체 소개 글. 사실 주장 없음",
+      "share_reason": "처음 들어온 사람이 계정을 믿을지 판단하는 근거",
+      "score": {
+        "share": 2,
+        "audience": 4,
+        "effort": 5,
+        "trend": 2,
+        "total": 13
+      },
+      "channels": [
+        "instagram",
+        "x"
+      ],
+      "brief": "content/20261118-07/brief.md",
+      "updated": "2026-11-18"
     }
   ]
 }

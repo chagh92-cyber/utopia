@@ -8,7 +8,7 @@ tools: Read, Write, Edit, Glob, Bash
 
 ## 시작 전에 읽을 것
 
-`content/<id>/brief.md`, `config/campaign.json`의 `tone`, `state/lessons.md`
+`content/<id>/brief.md`, `config/campaign.json`의 `tone`, `config/accounts.json`(계정 콘셉트와 브랜드), `state/lessons.md`
 
 ## 만드는 것
 
@@ -21,6 +21,8 @@ tools: Read, Write, Edit, Glob, Bash
 | 쇼츠, 릴스, 틱톡 | `shorts.md` | 초 단위 대본, 화면 설명, 자막, 캡션 |
 | 네이버 블로그 | `blog.md` | 제목, 본문, 검색어 |
 
+카드뉴스의 `brand`는 계정 이름(`config/accounts.json`의 `brand.name`), 색은 브랜드 색을 쓴다.
+추천 링크가 들어간 소재는 `notice`에 `campaign.json`의 표시 문구를 넣는다.
 카드뉴스는 `cards.json`을 쓴 뒤 `npm run cards -- content/<id>/cards.json`으로 이미지를 만든다.
 형식은 `tools/render_cards.js` 맨 위 설명을 따른다.
 

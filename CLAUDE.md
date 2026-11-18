@@ -20,6 +20,8 @@
 ## 파일 지도
 
 - `config/campaign.json`: 대상, 목표, 채널, 승인 방식. 모든 루틴이 가장 먼저 읽는다.
+- `config/accounts.json`: 운영 계정(살말테크)의 콘셉트, 핸들, 소개, 브랜드 색, 계정 운영 규칙. 모든 콘텐츠는 이 계정의 목소리로 쓴다.
+- `brand/`: 프로필 이미지와 헤더. `node tools/render_brand.js`로 다시 만든다.
 - `state/queue.json`: 소재 한 건의 전체 생애. 상태값은 아래 표를 따른다.
 - `state/lessons.md`: 성과에서 배운 것. 기획과 제작 전에 반드시 읽는다.
 - `state/metrics/<날짜>.json`: 그날 수집한 성과 원본.
