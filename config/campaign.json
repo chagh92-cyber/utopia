@@ -25,7 +25,7 @@
     "threads",
     "naver_blog"
   ],
-  "approval": "batch",
+  "approval": "auto",
   "posts_per_day": 2,
   "publisher_connector": "Metricool",
   "video_generation": false,
@@ -41,5 +41,6 @@
   "manual_channels": [
     "naver_blog"
   ],
-  "manual_channels_notes": "Metricool이 지원하지 않는 채널. 게시 루틴은 이 채널을 예약하지 않고, 승인된 최종본 경로를 보고에 적어 사용자가 직접 올리게 한다."
+  "manual_channels_notes": "Metricool이 지원하지 않는 채널. 게시 루틴은 이 채널을 예약하지 않고, 승인된 최종본 경로를 보고에 적어 사용자가 직접 올리게 한다.",
+  "approval_notes": "2026-11-18 사용자가 처음부터 자동 게시를 선택. 검수 passed는 바로 approved, held는 사용자 확인."
 }
