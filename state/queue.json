@@ -1,3 +1,128 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "20261118-01",
+      "title": "스타링크 반값 할인 D-10: 첫 달 실구매비 계산표",
+      "status": "drafted",
+      "created": "2026-11-18",
+      "source": "아시아타임즈 2026-11-04 https://www.asiatime.co.kr/article/20261104500308 / make2t 정리 https://www.make2t.kr/2026/11/starlink-50-percentdiscount-korea-2026.html",
+      "share_reason": "마감이 있는 반값 할인이라 가입을 고민하던 지인에게 '이거 28일까지래' 하고 보내기 좋다.",
+      "score": {
+        "share": 5,
+        "audience": 4,
+        "effort": 5,
+        "trend": 5,
+        "total": 19
+      },
+      "channels": [
+        "naver_blog",
+        "instagram",
+        "threads",
+        "x"
+      ],
+      "brief": "content/20261118-01/brief.md",
+      "updated": "2026-11-18"
+    },
+    {
+      "id": "20261118-02",
+      "title": "스타링크 미니 vs 스탠다드, 내 상황엔 뭐가 맞을까",
+      "status": "drafted",
+      "created": "2026-11-18",
+      "source": "DishyTech https://www.dishytech.com/mini-or-standard-a-look-into-starlinks-hardware-options/ / USMobile https://www.usmobile.com/blog/starlink-mini-vs-standard/ / Network Innovations 사양서 https://www.networkinnovations.com/hubfs/docs/product/starlink/NI-Starlink-Mini.pdf",
+      "share_reason": "할인 때문에 지금 사려는 사람이 가장 많이 막히는 선택이라 저장하고 공유하기 좋다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 4,
+        "total": 17
+      },
+      "channels": [
+        "instagram",
+        "threads"
+      ],
+      "brief": "content/20261118-02/brief.md",
+      "updated": "2026-11-18"
+    },
+    {
+      "id": "20261118-03",
+      "title": "스타링크를 집 인터넷 대신 써도 될까: 통신 3사 유선 요금과 비교",
+      "status": "idea",
+      "created": "2026-11-18",
+      "source": "라이프인포메이션 https://www.lifeinformations.com/2026/11/3.html / KISDI Perspectives 2026-03 https://www.kisdi.re.kr/report/fileView.do?key=m2102058837181&arrMasterId=4334696&id=1935576",
+      "share_reason": "도시 사용자에게는 '굳이?'라는 질문에 솔직하게 답하는 글이 신뢰를 준다.",
+      "score": {
+        "share": 4,
+        "audience": 3,
+        "effort": 4,
+        "trend": 4,
+        "total": 15
+      },
+      "channels": [
+        "naver_blog",
+        "threads"
+      ],
+      "updated": "2026-11-18"
+    },
+    {
+      "id": "20261118-04",
+      "title": "가입 전 꼭 할 일: 우리 집 주소로 가용 요금제 확인하기",
+      "status": "idea",
+      "created": "2026-11-18",
+      "source": "make2t 설치 가능 지역 정리 https://www.make2t.kr/2026/11/starlink-korea-coverage-address-availability-2026.html (주소에 따라 주거용 라이트 미제공, 서울 대기자 등록)",
+      "share_reason": "할인만 보고 샀다가 라이트 요금제가 안 되는 실수를 막아 준다.",
+      "score": {
+        "share": 3,
+        "audience": 4,
+        "effort": 5,
+        "trend": 3,
+        "total": 15
+      },
+      "channels": [
+        "instagram",
+        "x"
+      ],
+      "updated": "2026-11-18"
+    },
+    {
+      "id": "20261118-05",
+      "title": "캠핑·차박·낚시에서 스타링크 미니 쓰는 법",
+      "status": "idea",
+      "created": "2026-11-18",
+      "source": "미니 사양(내장 와이파이, 약 1.1kg, 평균 25~40W) DishyTech·USMobile",
+      "share_reason": "아웃도어 커뮤니티에서 장비 정보는 저장과 공유가 잘 된다. 실제 사진이 있으면 훨씬 강해진다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 3,
+        "trend": 3,
+        "total": 14
+      },
+      "channels": [
+        "instagram",
+        "naver_blog"
+      ],
+      "updated": "2026-11-18"
+    },
+    {
+      "id": "20261118-06",
+      "title": "실사용 속도 측정 기록(사용자 실측 필요)",
+      "status": "idea",
+      "created": "2026-11-18",
+      "source": "사용자의 실제 측정값이 있어야 만들 수 있음. 지어낸 수치로는 만들지 않는다.",
+      "share_reason": "직접 잰 숫자는 어떤 정리 글보다 신뢰를 준다.",
+      "score": {
+        "share": 5,
+        "audience": 4,
+        "effort": 2,
+        "trend": 3,
+        "total": 14
+      },
+      "channels": [
+        "threads",
+        "naver_blog"
+      ],
+      "updated": "2026-11-18"
+    }
+  ]
 }

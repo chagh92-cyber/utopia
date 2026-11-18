@@ -72,6 +72,21 @@ if (queue) {
           fail(`${where}: ${item.status} 상태인데 검수 통과 기록이 없음`);
         }
       }
+      if (NEEDS_PASS.includes(item.status)) {
+        // 승인된 초안에 채워지지 않은 자리표시자가 있으면 설정에 값이 있어야 한다.
+        const dir = path.join(root, 'content', item.id || '');
+        const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith('.md')) : [];
+        for (const f of files) {
+          const text = fs.readFileSync(path.join(dir, f), 'utf8');
+          const holes = [...new Set(text.match(/\{\{([A-Z_]+)\}\}/g) || [])];
+          for (const hole of holes) {
+            const key = hole.slice(2, -2).toLowerCase();
+            if (!campaign || !campaign[key]) {
+              fail(`${where}: ${f}의 ${hole}를 채울 값이 campaign.json의 ${key}에 없음`);
+            }
+          }
+        }
+      }
       if (['scheduled', 'published', 'measured'].includes(item.status)) {
         if (!Array.isArray(item.posts) || item.posts.length === 0) {
           fail(`${where}: ${item.status} 상태인데 posts가 비어 있음`);
