@@ -7,6 +7,7 @@
 // cards.json 형식:
 // {
 //   "brand": "계정 이름(선택, 카드 아래에 표시)",
+//   "notice": "표시 문구(선택). 모든 카드 맨 위에 눈에 띄는 띠로 표시. 광고·추천 표시에 쓴다",
 //   "theme": "light" | "dark" | "accent",   // 선택, 기본 light
 //   "accent": "#2f6bff",                     // 선택, 강조색
 //   "cards": [
@@ -63,8 +64,11 @@ body{background:${bg};color:${theme.fg};font-family:"Pretendard",sans-serif;
 .title{font-size:${cover ? 104 : 76}px;font-weight:800;line-height:1.18;letter-spacing:-0.035em}
 .rule{width:96px;height:10px;border-radius:5px;background:${mark};margin:44px 0}
 .body{font-size:42px;font-weight:500;line-height:1.6;letter-spacing:-0.015em;color:${theme.sub}}
+.notice{margin:-96px -88px 64px;padding:26px 88px;background:${mark};color:${spec.theme === 'accent' ? accent : (spec.theme === 'dark' ? '#0b0b0e' : '#ffffff')};
+  font-size:32px;font-weight:800;letter-spacing:-0.01em;line-height:1.35}
 .foot{display:flex;justify-content:space-between;align-items:center;font-size:28px;font-weight:700;color:${theme.sub}}
 </style></head><body>
+${spec.notice ? `<div class="notice">${esc(spec.notice)}</div>` : ''}
 <div class="main">
   ${card.kicker ? `<div class="kicker">${esc(card.kicker)}</div>` : ''}
   <div class="title">${lines(card.title)}</div>
