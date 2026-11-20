@@ -275,7 +275,7 @@
     {
       "id": "20261120-01",
       "title": "스타링크, 실제로 어디에 쓰일까: 필요한 곳 5가지",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "재검수 통과(1차 held의 필수 수정 6건과 권고 4건 반영). 전 채널 첫 줄에 스타링크 추천 링크 표시, 카드 7장 띠 있음. 현대글로비스 '45척 도입·순차 설치(2026.01 보도)', 아현 화재는 KT 회선·일대·은평 일부로 한정, 제주 사업은 2026.03 보도 기준·연근해 어선·공고 확인, 회사·지자체 사례와 개인 요금제 구분, 위성도 완벽한 대비 아님 명시. X 존댓말, 254자(조정자 보고, 이 환경에서 npm run check 직접 실행 못 함). 미니 주거용 요금제 주장 없음. 게시 조건: publish_by 2026-11-27(KST, +09:00 표기), X 핸들 null이면 X 예약 보류, 재렌더 카드 푸시 후 예약, 유료 홍보와 남의 단톡방·게시판 게시 금지. 상세: content/20261120-01/review.md"
@@ -302,7 +302,21 @@
         "by": "auto",
         "date": "2026-11-20",
         "note": "approval=auto, 재검수 통과"
-      }
+      },
+      "posts": [
+        {
+          "channel": "instagram",
+          "scheduled_at": "2026-11-21T10:00:00+09:00",
+          "post_id": "435516309",
+          "metricool_uuid": "4516121101937166296",
+          "url": null,
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=4516121101937166296"
+        }
+      ],
+      "pending_channels": [
+        "threads",
+        "x"
+      ]
     }
   ]
 }
