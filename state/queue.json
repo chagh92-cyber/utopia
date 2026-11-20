@@ -52,7 +52,7 @@
     {
       "id": "20261118-02",
       "title": "스타링크 미니 vs 스탠다드, 내 상황엔 뭐가 맞을까",
-      "status": "scheduled",
+      "status": "published",
       "review": {
         "result": "passed",
         "notes": "재검수 통과(1차 held의 필수 수정 3건 반영). 첫 줄과 카드 5장 상단 띠에 표시, 할인 기간 '보도 기준', 밖에서 쓸 때 요금제 조건 확인 문구, '외장 공유기', 출처 보강. 선택 권고: 스레드 '약 3kg'에 '(세대별 차이)'. 게시 조건: 프로필 링크 설정 후 게시, 유료 홍보 금지. 상세: content/20261118-02/review.md"
@@ -72,7 +72,7 @@
         "threads"
       ],
       "brief": "content/20261118-02/brief.md",
-      "updated": "2026-11-19",
+      "updated": "2026-11-20",
       "approval": {
         "by": "user",
         "date": "2026-11-18",
@@ -84,8 +84,9 @@
           "scheduled_at": "2026-11-19T12:00:00+09:00",
           "post_id": "433512106",
           "metricool_uuid": "-157817133042809514",
-          "url": null,
-          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-157817133042809514"
+          "url": "https://www.instagram.com/p/Df6EbXsiN4t/",
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-157817133042809514",
+          "published_at": "2026-11-19T12:00:00+09:00"
         }
       ],
       "pending_channels": [
@@ -96,7 +97,7 @@
     {
       "id": "20261118-03",
       "title": "스타링크를 집 인터넷 대신 써도 될까: 통신 3사 유선 요금과 비교",
-      "status": "scheduled",
+      "status": "published",
       "review": {
         "result": "passed",
         "notes": "3차 검수 통과. 가격 비교는 할인 기간 월 요금으로 한정했고 키트·3년 약정·할인 후 68,000원을 명시했다. 속도는 최대치 기준이라고 밝혔고, 결론을 낮췄으며, 모든 채널에 마감·신규가 있다. 키트 가격 출처 make2t를 브리프·카드 5·스레드에 추가했고, X는 약 233자다. 게시 조건: publish_by 2026-11-27(KST). 상세: content/20261118-03/review.md"
@@ -116,7 +117,7 @@
         "threads",
         "x"
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-20",
       "brief": "content/20261118-03/brief.md",
       "publish_by": "2026-11-27",
       "approval": {
@@ -130,8 +131,9 @@
           "scheduled_at": "2026-11-19T18:00:00+09:00",
           "post_id": "433512295",
           "metricool_uuid": "-5201526650809922971",
-          "url": null,
-          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-5201526650809922971"
+          "url": "https://www.instagram.com/p/Df6toMeDb2H/",
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-5201526650809922971",
+          "published_at": "2026-11-19T18:00:00+09:00"
         }
       ],
       "pending_channels": [
@@ -142,7 +144,7 @@
     {
       "id": "20261118-04",
       "title": "가입 전 꼭 할 일: 우리 집 주소로 가용 요금제 확인하기",
-      "status": "scheduled",
+      "status": "published",
       "review": {
         "result": "passed",
         "notes": "재검수 통과. 서울 대기자 문장은 삭제됐고, 전 채널에 마감·신규 가입이 표기됐으며, '3분'과 #캠핑도 빠졌다. 표시, 출처, 길이(X 약 240자) 모두 문제 없음. 게시 조건: publish_by 2026-11-27(KST)을 넘기지 않는다. 예약 시각은 +09:00으로 기록한다. 검사 도구가 날짜 문자열만 비교해 UTC 표기 시 11/28 KST 게시를 놓칠 수 있다. 상세: content/20261118-04/review.md"
@@ -162,7 +164,7 @@
         "threads",
         "x"
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-20",
       "brief": "content/20261118-04/brief.md",
       "publish_by": "2026-11-27",
       "approval": {
@@ -176,8 +178,9 @@
           "scheduled_at": "2026-11-19T15:00:00+09:00",
           "post_id": "433512188",
           "metricool_uuid": "6278687812269457608",
-          "url": null,
-          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=6278687812269457608"
+          "url": "https://www.instagram.com/p/Df6ZE2oCsrS/",
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=6278687812269457608",
+          "published_at": "2026-11-19T15:00:00+09:00"
         }
       ],
       "pending_channels": [
@@ -268,6 +271,29 @@
       "pending_channels": [
         "x"
       ]
+    },
+    {
+      "id": "20261120-01",
+      "title": "스타링크, 실제로 어디에 쓰일까: 필요한 곳 5가지",
+      "status": "drafted",
+      "created": "2026-11-20",
+      "source": "헤럴드경제·네이트(현대글로비스·대한해운 선박 도입, 2026.01) / 네이트(제주 어선 위성통신 지원사업, 2026.03) / 다음·전자신문(KT 아현지사 화재, 2018.11) / make2t 미니·로밍 요금(2026.11)",
+      "share_reason": "'나한테 필요한가'를 예시로 바로 판단하게 해 준다. 해당되는 지인에게 보내기 좋다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 4,
+        "trend": 4,
+        "total": 16
+      },
+      "channels": [
+        "instagram",
+        "threads",
+        "x"
+      ],
+      "brief": "content/20261120-01/brief.md",
+      "publish_by": "2026-11-27",
+      "updated": "2026-11-20"
     }
   ]
 }
