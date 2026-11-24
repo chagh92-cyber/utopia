@@ -388,11 +388,18 @@
           "metricool_uuid": "-5339690877764877214",
           "url": null,
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-5339690877764877214"
+        },
+        {
+          "channel": "x",
+          "type": "video",
+          "scheduled_at": "2026-11-25T21:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12160544,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12160544&a=371858"
         }
       ],
-      "pending_channels": [
-        "x"
-      ]
+      "pending_channels": []
     },
     {
       "id": "20261124-02",
@@ -440,7 +447,17 @@
       ],
       "pending_channels": [
         "x"
-      ]
+      ],
+      "x_plan": {
+        "scheduled_at": "2026-11-27T12:30:00+09:00",
+        "cards": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "note": "Typefully 업로드 속도 제한으로 이미지 업로드 대기. 05는 카드 2(중복 안 됨)를 반드시 포함(검수 조건)."
+      }
     },
     {
       "id": "20261124-03",
@@ -484,11 +501,18 @@
           "metricool_uuid": "4880855448308170761",
           "url": null,
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=4880855448308170761"
+        },
+        {
+          "channel": "x",
+          "type": "video",
+          "scheduled_at": "2026-11-26T21:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12160546,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12160546&a=371858"
         }
       ],
-      "pending_channels": [
-        "x"
-      ]
+      "pending_channels": []
     },
     {
       "id": "20261124-04",
@@ -582,7 +606,17 @@
       ],
       "pending_channels": [
         "x"
-      ]
+      ],
+      "x_plan": {
+        "scheduled_at": "2026-11-28T12:30:00+09:00",
+        "cards": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "note": "Typefully 업로드 속도 제한으로 이미지 업로드 대기. 05는 카드 2(중복 안 됨)를 반드시 포함(검수 조건)."
+      }
     },
     {
       "id": "20261124-06",
@@ -626,11 +660,18 @@
           "metricool_uuid": "-3748143402903256178",
           "url": null,
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-3748143402903256178"
+        },
+        {
+          "channel": "x",
+          "type": "video",
+          "scheduled_at": "2026-11-29T21:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12160550,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12160550&a=371858"
         }
       ],
-      "pending_channels": [
-        "x"
-      ]
+      "pending_channels": []
     },
     {
       "id": "20261124-07",
@@ -674,11 +715,18 @@
           "metricool_uuid": "-5228816537938672968",
           "url": null,
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-5228816537938672968"
+        },
+        {
+          "channel": "x",
+          "type": "video",
+          "scheduled_at": "2026-11-30T21:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12160552,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12160552&a=371858"
         }
       ],
-      "pending_channels": [
-        "x"
-      ]
+      "pending_channels": []
     }
   ]
 }
