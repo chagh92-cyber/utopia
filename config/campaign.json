@@ -68,7 +68,14 @@
       "thu",
       "sat"
     ],
-    "batch_day": "mon"
+    "batch_day": "mon",
+    "x": {
+      "posts_per_day": 1,
+      "time": "12:30 또는 21:00",
+      "publisher": "Typefully",
+      "free_quota_per_month": 10,
+      "notes": "X는 인스타그램 소재를 X 문법(짧은 훅 + 목록)으로 다시 쓴다. 릴스 소재는 영상, 카드뉴스는 이미지 최대 4장. 무료 한도 월 10건이라 12월부터 매일 게시하려면 유료 플랜 필요."
+    }
   },
   "x_publisher_connector": "Typefully",
   "x_notes": "X는 Metricool 무료 플랜에서 안 되어 Typefully로 게시한다. 무료 플랜은 월 10건 안팎이라는 자료가 있어 X는 하루 1~2건 이하로 쓴다."

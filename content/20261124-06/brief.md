@@ -22,7 +22,7 @@ AI 구독을 고민하는 사람이 많아 댓글·공유가 기대되는 주제
 |---|---|
 | ChatGPT 한국 App Store 기준 Go 월 13,000원, Plus 월 29,000원(부가세 포함 표시) | 위키독스 오픈위키 ChatGPT 요금제 정리(2026.9), ssdnodes 한국 ChatGPT 요금 정리 |
 | Google AI Pro 월 29,000원(원화) | DEV Community(2026), 위키독스 정리 — 두 자료 일치 |
-| Claude Pro는 달러 결제, 부가세 포함 월 약 3만 원대(환율 따라 다름, 추정) | 위키독스 AI 구독 가격 정리(2026.9) |
+| Claude Pro 웹 결제 22달러(부가세 포함), 원화로 약 3만 원 안팎(환율 따라 다름) | Anthropic 지원 문서(Claude Pro 가격), opentherank |
 
 쓰지 않는 것: Google AI Plus 가격(자료 충돌), Claude 원화 확정가. 쓰지 않거나 추정이라고 밝힌다.
 
