@@ -436,7 +436,7 @@
     {
       "id": "20261124-04",
       "title": "스타링크 반값 마지막 날: 살 사람, 안 살 사람",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "캡션 첫 줄 추천 링크 표시, 모든 장면·cover 상단 띠 표시 확인. 마감 '보도 기준 11/28', 미니+주거용 주장 없음, 안 살 사람 제시로 균형. 주간 추천 비율 1/7. 게시 조건: 2026-11-27 KST 안에 게시(+09:00 표기). '내일(11/28)' 문구라 하루라도 밀리면 게시하지 않음. 할인이 일찍 끝났으면 게시 안 함. 프로필 링크·소개글 표시 유지, 유료 홍보 금지. 권고: 로밍 요금 할인 여부는 근거 없음, 다음엔 범위 명시. 상세: content/20261124-04/review.md"
@@ -465,7 +465,19 @@
         "by": "auto",
         "date": "2026-11-24",
         "note": "approval=auto, 검수 통과(조건: 11/27 KST 게시)"
-      }
+      },
+      "posts": [
+        {
+          "channel": "instagram",
+          "type": "REEL",
+          "scheduled_at": "2026-11-27T18:00:00+09:00",
+          "post_id": "440261590",
+          "metricool_uuid": "-1557235331419517625",
+          "url": null,
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-1557235331419517625"
+        }
+      ],
+      "pending_channels": []
     },
     {
       "id": "20261124-05",
