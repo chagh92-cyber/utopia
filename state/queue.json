@@ -47,7 +47,8 @@
         "threads",
         "x"
       ],
-      "publish_by": "2026-11-27"
+      "publish_by": "2026-11-27",
+      "x_hold": "미니+주거용 라이트 가입 가능 여부 미확인(2026-11-20 엇갈린 자료). 사용자 확인 전 X 게시 보류."
     },
     {
       "id": "20261118-02",
@@ -139,7 +140,17 @@
       "pending_channels": [
         "threads",
         "x"
-      ]
+      ],
+      "x_plan": {
+        "publisher": "Typefully",
+        "scheduled_at": "2026-11-27T09:00:00+09:00",
+        "cards": [
+          1,
+          2,
+          3,
+          5
+        ]
+      }
     },
     {
       "id": "20261118-04",
@@ -186,7 +197,17 @@
       "pending_channels": [
         "threads",
         "x"
-      ]
+      ],
+      "x_plan": {
+        "publisher": "Typefully",
+        "scheduled_at": "2026-11-25T19:00:00+09:00",
+        "cards": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
     },
     {
       "id": "20261118-05",
@@ -270,7 +291,17 @@
       ],
       "pending_channels": [
         "x"
-      ]
+      ],
+      "x_plan": {
+        "publisher": "Typefully",
+        "scheduled_at": "2026-11-25T09:00:00+09:00",
+        "cards": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
     },
     {
       "id": "20261120-01",
@@ -316,7 +347,17 @@
       "pending_channels": [
         "threads",
         "x"
-      ]
+      ],
+      "x_plan": {
+        "publisher": "Typefully",
+        "scheduled_at": "2026-11-26T12:00:00+09:00",
+        "cards": [
+          1,
+          4,
+          5,
+          6
+        ]
+      }
     }
   ]
 }

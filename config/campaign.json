@@ -60,5 +60,7 @@
     "max_posts_per_channel_per_day": 2,
     "try_trial_reels": true,
     "plan": "reports/growth-plan-2026-11-24.md"
-  }
+  },
+  "x_publisher_connector": "Typefully",
+  "x_notes": "X는 Metricool 무료 플랜에서 안 되어 Typefully로 게시한다. 무료 플랜은 월 10건 안팎이라는 자료가 있어 X는 하루 1~2건 이하로 쓴다."
 }
