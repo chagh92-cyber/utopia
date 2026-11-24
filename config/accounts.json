@@ -35,7 +35,8 @@
     "link": "{{REFERRAL_LINK}}",
     "pinned": [
       "20261118-07"
-    ]
+    ],
+    "display_name_suggested": "살말테크 | 요금제·가성비 테크 비교"
   },
   "x": {
     "handle": null,
@@ -63,5 +64,27 @@
   "naver_blog": {
     "handle": null,
     "notes": "사용자가 쓸 네이버 계정을 정한다. 블로그 소개에도 같은 추천 링크 표시를 넣는다."
-  }
+  },
+  "content_pillars": [
+    {
+      "name": "요금·구독 비교",
+      "examples": "통신 요금제, OTT·AI 구독료, 알뜰폰 갈아타기",
+      "goal": "저장, 공유"
+    },
+    {
+      "name": "30초 판정",
+      "examples": "신제품·신서비스 살까 말까 숫자 판정",
+      "goal": "시청 완료, 댓글"
+    },
+    {
+      "name": "함정 경고",
+      "examples": "약정, 자동결제, 할인 조건의 함정",
+      "goal": "공유"
+    },
+    {
+      "name": "추천 링크 소재",
+      "examples": "스타링크 등. 5건 중 1건 이하",
+      "goal": "클릭"
+    }
+  ]
 }

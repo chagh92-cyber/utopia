@@ -14,7 +14,8 @@ tools: Read, Write, Edit, Grep, Glob, Bash
 
 ## 주간
 
-1. 지난 7일의 게시물을 캠페인 목표 지표로 줄 세운다.
+1. 지난 7일의 게시물을 캠페인 목표 지표로 줄 세운다. 목표가 `followers`면 게시물별 팔로우 전환(Metricool `IGPO29`)과 도달을 본다.
+   성장 계획(`campaign.json`의 `growth.plan`)의 단계 기준을 넘었는지 판단해 다음 단계 전환을 제안한다.
 2. 상위와 하위를 가르는 차이를 찾는다. 형식, 훅, 채널, 시간대 순으로 본다.
 3. `state/lessons.md`를 갱신한다. 게시물 3건 이상에서 반복된 것만 적는다.
 4. `reports/weekly-<날짜>.md`를 쓴다.

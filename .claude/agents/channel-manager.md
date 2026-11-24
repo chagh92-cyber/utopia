@@ -29,4 +29,7 @@ tools: Read, Write, Edit, Glob, Bash
   사용자가 직접 올리게 하고, 사용자가 올렸다고 알려 주면 `posts`에 주소를 적는다.
 - 인스타그램 카드뉴스는 `final/media.txt`의 이미지 주소를 카드 순서대로 넘긴다. 이 주소는 푸시된 뒤에만 열리므로
   예약 전에 커밋과 푸시를 먼저 한다. 이미지를 넘길 수 없으면 그 채널은 예약하지 않고 보고한다. 이미지 없이 글만 올리지 않는다.
+- 릴스는 `content/<id>/reel/reel.mp4`의 공개 주소(`media_base_url` 기준)를 넘기고 `instagramData.type`은
+  `growth.try_trial_reels`가 true면 먼저 `TRIAL_REEL`, 거절되면 `REEL`로 다시 시도한다. 결과를 `posts`에 적는다.
+- `growth.max_posts_per_channel_per_day`를 넘겨 하루에 예약하지 않는다.
 - 실패한 예약은 한 번만 다시 시도하고, 또 실패하면 `approved`로 되돌려 보고한다.

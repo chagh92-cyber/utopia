@@ -3,7 +3,7 @@
   "target_notes": "추천 링크를 무작위로 뿌리지 않는다. 가입을 고민하는 사람이 찾아오는 유용한 정보 콘텐츠를 만들고, 링크는 내 채널(본문 하단, 프로필)에만 둔다.",
   "referral_link": "https://starlink.com?referral=RC-DF-16524681-29887-13",
   "referral_link_notes": "스타링크 계정 > 추천(Referrals)에서 복사한 내 링크. 비어 있으면 게시하지 않는다. 초안에는 {{REFERRAL_LINK}}로 둔다.",
-  "goal": "traffic",
+  "goal": "followers",
   "goal_options": [
     "awareness",
     "followers",
@@ -46,5 +46,19 @@
   "media_base_url": "https://raw.githubusercontent.com/chagh92-cyber/utopia/claude/viral-team-planning-fcrkru",
   "media_notes": "저장소가 공개라서 카드 이미지를 이 주소로 커넥터에 넘긴다. 이미지를 바꿨으면 푸시한 뒤에 예약한다. 저장소를 비공개로 바꾸면 이 방법은 막힌다.",
   "metricool_blog_id": "8202229",
-  "metricool_notes": "Metricool MCP의 blogId. 게시 전 getBrandSettings로 연결된 네트워크를 확인한다. 네트워크 연결은 사용자가 https://app.metricool.com/brands/connections?blogId=8202229 에서 한다."
+  "metricool_notes": "Metricool MCP의 blogId. 게시 전 getBrandSettings로 연결된 네트워크를 확인한다. 네트워크 연결은 사용자가 https://app.metricool.com/brands/connections?blogId=8202229 에서 한다.",
+  "goal_notes": "2026-11-24부터 4주간 성장 단계. 계획은 reports/growth-plan-2026-11-24.md. 추천 링크 클릭은 보조 지표.",
+  "growth": {
+    "phase": "seed",
+    "formats_priority": [
+      "instagram_reel",
+      "instagram_carousel"
+    ],
+    "reels_per_day": 1,
+    "carousels_per_week": 3,
+    "referral_max_ratio": 0.2,
+    "max_posts_per_channel_per_day": 2,
+    "try_trial_reels": true,
+    "plan": "reports/growth-plan-2026-11-24.md"
+  }
 }

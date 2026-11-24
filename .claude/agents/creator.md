@@ -21,6 +21,11 @@ tools: Read, Write, Edit, Glob, Bash
 | 쇼츠, 릴스, 틱톡 | `shorts.md` | 초 단위 대본, 화면 설명, 자막, 캡션 |
 | 네이버 블로그 | `blog.md` | 제목, 본문, 검색어 |
 
+`campaign.json`의 `growth.formats_priority`가 릴스를 앞에 두면, 인스타그램은 릴스부터 만든다.
+릴스는 `content/<id>/reel.json`(형식은 `tools/render_reel.js` 맨 위 설명)을 쓰고 `npm run reel -- content/<id>/reel.json`으로
+`reel/reel.mp4`를 만든다. 첫 장면은 1~2초 안에 읽히는 훅 한 문장, 전체 15~30초, 장면당 한 가지 숫자나 주장만 담는다.
+같은 소재로 훅을 다르게 쓴 두 번째 버전을 `reel-b.json`으로 만들어 두면 시험에 쓴다.
+
 카드뉴스의 `brand`는 계정 이름(`config/accounts.json`의 `brand.name`), 색은 브랜드 색을 쓴다.
 추천 링크가 들어간 소재는 `notice`에 `campaign.json`의 표시 문구를 넣는다.
 카드뉴스는 `cards.json`을 쓴 뒤 `npm run cards -- content/<id>/cards.json`으로 이미지를 만든다.
