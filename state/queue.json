@@ -345,6 +345,175 @@
       "pending_channels": [
         "threads"
       ]
+    },
+    {
+      "id": "20261124-01",
+      "title": "무료 체험 끝나고 자동결제, 이제 30일 전 동의가 필요해요",
+      "status": "drafted",
+      "created": "2026-11-24",
+      "source": "대한민국 정책브리핑(공정위)",
+      "share_reason": "구독 서비스를 쓰는 거의 모든 사람에게 해당돼서 \"이거 알아?\" 하고 보내기 좋다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 4,
+        "total": 17
+      },
+      "channels": [
+        "instagram"
+      ],
+      "format": "reel",
+      "pillar": "함정 경고",
+      "referral": false,
+      "planned_at": "2026-11-25T18:00:00+09:00",
+      "brief": "content/20261124-01/brief.md",
+      "updated": "2026-11-24"
+    },
+    {
+      "id": "20261124-02",
+      "title": "OTT 제일 싸게 보는 요금제 한 장 정리",
+      "status": "drafted",
+      "created": "2026-11-24",
+      "source": "OTT 요금 정리 블로그",
+      "share_reason": "OTT 여러 개 쓰는 사람이 많아 저장·공유가 잘 되는 정리형.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 4,
+        "total": 17
+      },
+      "channels": [
+        "instagram"
+      ],
+      "format": "carousel",
+      "pillar": "요금·구독 비교",
+      "referral": false,
+      "planned_at": "2026-11-26T10:00:00+09:00",
+      "brief": "content/20261124-02/brief.md",
+      "updated": "2026-11-24"
+    },
+    {
+      "id": "20261124-03",
+      "title": "블프 직구, 200달러 넘으면 전부 세금",
+      "status": "drafted",
+      "created": "2026-11-24",
+      "source": "관세청 기준 정리 자료",
+      "share_reason": "블랙프라이데이(11/27) 직전, 직구하는 친구에게 보내기 좋은 시의성 정보.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 4,
+        "total": 17
+      },
+      "channels": [
+        "instagram"
+      ],
+      "format": "reel",
+      "pillar": "함정 경고",
+      "referral": false,
+      "planned_at": "2026-11-26T18:00:00+09:00",
+      "brief": "content/20261124-03/brief.md",
+      "updated": "2026-11-24"
+    },
+    {
+      "id": "20261124-04",
+      "title": "스타링크 반값 마지막 날: 살 사람, 안 살 사람",
+      "status": "drafted",
+      "created": "2026-11-24",
+      "source": "아시아타임즈, make2t",
+      "share_reason": "마감 직전 판단 정리. 유선이 약한 곳에 사는 지인에게 보내기 좋다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 4,
+        "total": 17
+      },
+      "channels": [
+        "instagram"
+      ],
+      "format": "reel",
+      "pillar": "추천 링크 소재",
+      "referral": true,
+      "planned_at": "2026-11-27T18:00:00+09:00",
+      "brief": "content/20261124-04/brief.md",
+      "updated": "2026-11-24",
+      "publish_by": "2026-11-27"
+    },
+    {
+      "id": "20261124-05",
+      "title": "휴대폰 바꿀 때 선택약정 vs 공시지원금, 계산 하나로 끝",
+      "status": "drafted",
+      "created": "2026-11-24",
+      "source": "T world, 아정당",
+      "share_reason": "휴대폰 바꾸는 시기마다 다시 찾아보는 정보라 저장이 잘 된다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 4,
+        "total": 17
+      },
+      "channels": [
+        "instagram"
+      ],
+      "format": "carousel",
+      "pillar": "요금·구독 비교",
+      "referral": false,
+      "planned_at": "2026-11-28T10:00:00+09:00",
+      "brief": "content/20261124-05/brief.md",
+      "updated": "2026-11-24"
+    },
+    {
+      "id": "20261124-06",
+      "title": "챗GPT 유료, 한국에서 얼마일까",
+      "status": "drafted",
+      "created": "2026-11-24",
+      "source": "AI 구독 가격 정리",
+      "share_reason": "AI 구독을 고민하는 사람이 많아 댓글·공유가 기대되는 주제.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 4,
+        "total": 17
+      },
+      "channels": [
+        "instagram"
+      ],
+      "format": "reel",
+      "pillar": "요금·구독 비교",
+      "referral": false,
+      "planned_at": "2026-11-29T18:00:00+09:00",
+      "brief": "content/20261124-06/brief.md",
+      "updated": "2026-11-24"
+    },
+    {
+      "id": "20261124-07",
+      "title": "결제 화면에서 돈 더 내게 만드는 6가지 수법",
+      "status": "drafted",
+      "created": "2026-11-24",
+      "source": "뉴시스, 법률신문",
+      "share_reason": "누구나 겪어 본 일이라 공감 댓글과 공유가 기대된다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 4,
+        "total": 17
+      },
+      "channels": [
+        "instagram"
+      ],
+      "format": "reel",
+      "pillar": "함정 경고",
+      "referral": false,
+      "planned_at": "2026-11-30T18:00:00+09:00",
+      "brief": "content/20261124-07/brief.md",
+      "updated": "2026-11-24"
     }
   ]
 }

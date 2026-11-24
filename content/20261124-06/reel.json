@@ -1,0 +1,35 @@
+{
+  "brand": "@salmal.tech",
+  "theme": "dark",
+  "accent": "#5b8cff",
+  "scenes": [
+    {
+      "title": "챗GPT 유료,\n한국에서 얼마?",
+      "seconds": 2.2
+    },
+    {
+      "kicker": "ChatGPT",
+      "title": "Plus 월 29,000원",
+      "body": "저가형 Go는 월 13,000원\n(한국 앱스토어 표시 가격 기준)",
+      "seconds": 3.6
+    },
+    {
+      "kicker": "Google",
+      "title": "AI Pro 월 29,000원",
+      "body": "원화 표시 가격 기준",
+      "seconds": 2.8
+    },
+    {
+      "kicker": "Claude",
+      "title": "Pro는 달러 결제",
+      "body": "환율 따라 월 3만 원대(추정)",
+      "seconds": 3
+    },
+    {
+      "kicker": "고르는 법",
+      "title": "무료로 먼저 써 보고\n막힐 때만 유료",
+      "body": "가격은 결제 화면이 최종\n\n출처: AI 구독 가격 정리(위키독스 등, 2026)",
+      "seconds": 3.6
+    }
+  ]
+}
