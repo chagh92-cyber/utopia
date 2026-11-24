@@ -118,7 +118,7 @@
         "threads",
         "x"
       ],
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "brief": "content/20261118-03/brief.md",
       "publish_by": "2026-11-27",
       "approval": {
@@ -135,22 +135,19 @@
           "url": "https://www.instagram.com/p/Df6toMeDb2H/",
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-5201526650809922971",
           "published_at": "2026-11-19T18:00:00+09:00"
+        },
+        {
+          "channel": "x",
+          "scheduled_at": "2026-11-27T09:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12159964,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12159964&a=371858"
         }
       ],
       "pending_channels": [
-        "threads",
-        "x"
-      ],
-      "x_plan": {
-        "publisher": "Typefully",
-        "scheduled_at": "2026-11-27T09:00:00+09:00",
-        "cards": [
-          1,
-          2,
-          3,
-          5
-        ]
-      }
+        "threads"
+      ]
     },
     {
       "id": "20261118-04",
@@ -175,7 +172,7 @@
         "threads",
         "x"
       ],
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "brief": "content/20261118-04/brief.md",
       "publish_by": "2026-11-27",
       "approval": {
@@ -192,22 +189,19 @@
           "url": "https://www.instagram.com/p/Df6ZE2oCsrS/",
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=6278687812269457608",
           "published_at": "2026-11-19T15:00:00+09:00"
+        },
+        {
+          "channel": "x",
+          "scheduled_at": "2026-11-25T19:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12159958,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12159958&a=371858"
         }
       ],
       "pending_channels": [
-        "threads",
-        "x"
-      ],
-      "x_plan": {
-        "publisher": "Typefully",
-        "scheduled_at": "2026-11-25T19:00:00+09:00",
-        "cards": [
-          1,
-          2,
-          3,
-          4
-        ]
-      }
+        "threads"
+      ]
     },
     {
       "id": "20261118-05",
@@ -272,7 +266,7 @@
         "x"
       ],
       "brief": "content/20261118-07/brief.md",
-      "updated": "2026-11-19",
+      "updated": "2026-11-24",
       "approval": {
         "by": "user",
         "date": "2026-11-18",
@@ -287,21 +281,17 @@
           "url": "https://www.instagram.com/p/Df5nl2WDcdg/",
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=7793719358778524385",
           "published_at": "2026-11-19T07:50:00+09:00"
+        },
+        {
+          "channel": "x",
+          "scheduled_at": "2026-11-25T09:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12159952,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12159952&a=371858"
         }
       ],
-      "pending_channels": [
-        "x"
-      ],
-      "x_plan": {
-        "publisher": "Typefully",
-        "scheduled_at": "2026-11-25T09:00:00+09:00",
-        "cards": [
-          1,
-          2,
-          3,
-          4
-        ]
-      }
+      "pending_channels": []
     },
     {
       "id": "20261120-01",
@@ -328,7 +318,7 @@
       ],
       "brief": "content/20261120-01/brief.md",
       "publish_by": "2026-11-27",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "approval": {
         "by": "auto",
         "date": "2026-11-20",
@@ -342,22 +332,19 @@
           "metricool_uuid": "4516121101937166296",
           "url": null,
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=4516121101937166296"
+        },
+        {
+          "channel": "x",
+          "scheduled_at": "2026-11-26T12:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12159961,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12159961&a=371858"
         }
       ],
       "pending_channels": [
-        "threads",
-        "x"
-      ],
-      "x_plan": {
-        "publisher": "Typefully",
-        "scheduled_at": "2026-11-26T12:00:00+09:00",
-        "cards": [
-          1,
-          4,
-          5,
-          6
-        ]
-      }
+        "threads"
+      ]
     }
   ]
 }

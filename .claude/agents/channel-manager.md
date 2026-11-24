@@ -32,4 +32,6 @@ tools: Read, Write, Edit, Glob, Bash
 - 릴스는 `content/<id>/reel/reel.mp4`의 공개 주소(`media_base_url` 기준)를 넘기고 `instagramData.type`은
   `growth.try_trial_reels`가 true면 먼저 `TRIAL_REEL`, 거절되면 `REEL`로 다시 시도한다. 결과를 `posts`에 적는다.
 - `growth.max_posts_per_channel_per_day`를 넘겨 하루에 예약하지 않는다.
+- X는 Typefully 커넥터로 게시한다(social set `config/accounts.json`의 `x.typefully_social_set_id`). 이미지는 `create_media_upload`로
+  받은 주소에 `curl -T`로 올린 뒤 최대 4장을 붙인다. 무료 한도가 월 10건이라 `get_social_set_details`의 `publishing_quota`를 먼저 확인한다.
 - 실패한 예약은 한 번만 다시 시도하고, 또 실패하면 `approved`로 되돌려 보고한다.
