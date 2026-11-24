@@ -58,8 +58,17 @@
     "carousels_per_week": 3,
     "referral_max_ratio": 0.2,
     "max_posts_per_channel_per_day": 2,
-    "try_trial_reels": true,
-    "plan": "reports/growth-plan-2026-11-24.md"
+    "try_trial_reels": false,
+    "plan": "reports/growth-plan-2026-11-24.md",
+    "trial_reels_notes": "팔로워 0~수십 명 단계에선 일반 릴스도 비팔로워에게 보이고, 시험용 릴스는 프로필 그리드에 남지 않는다. 팔로워 300 이후 훅 A/B 시험용으로 다시 검토.",
+    "reel_time": "18:00",
+    "carousel_time": "10:00",
+    "carousel_days": [
+      "tue",
+      "thu",
+      "sat"
+    ],
+    "batch_day": "mon"
   },
   "x_publisher_connector": "Typefully",
   "x_notes": "X는 Metricool 무료 플랜에서 안 되어 Typefully로 게시한다. 무료 플랜은 월 10건 안팎이라는 자료가 있어 X는 하루 1~2건 이하로 쓴다."
