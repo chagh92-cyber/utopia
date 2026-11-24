@@ -349,7 +349,7 @@
     {
       "id": "20261124-01",
       "title": "무료 체험 끝나고 자동결제, 이제 30일 전 동의가 필요해요",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "2차 검수 통과(instagram+x). 장면 3 '동의 버튼은 읽고 누르세요'로 완화. X 본문(248)도 같은 사실만 쓰고 링크·유도 없음, 표시 불필요. 조건: 소개글 표시 유지, 프로필 링크 유도 추가 금지. 일정 메모: 11/25에 X 예약이 이미 2건이라 이 건 X는 다른 날로(하루 1~2건, Typefully 월 10건 안팎). 권고: X '이제 그냥 못 넘어가요'의 '이제' 완화. 상세: content/20261124-01/review.md"
@@ -378,12 +378,26 @@
         "by": "auto",
         "date": "2026-11-24",
         "note": "approval=auto, 재검수 통과"
-      }
+      },
+      "posts": [
+        {
+          "channel": "instagram",
+          "type": "REEL",
+          "scheduled_at": "2026-11-25T18:00:00+09:00",
+          "post_id": "440265220",
+          "metricool_uuid": "-5339690877764877214",
+          "url": null,
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-5339690877764877214"
+        }
+      ],
+      "pending_channels": [
+        "x"
+      ]
     },
     {
       "id": "20261124-02",
       "title": "OTT 제일 싸게 보는 요금제 한 장 정리",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "2차 검수 통과(instagram+x). 수정안 B 반영: 카드 3·캡션·X에 쿠팡플레이 일반회원 일부 콘텐츠 광고 0원, 와우는 더 많은 콘텐츠. 브리프에 디지털데일리·SBS Biz 출처. 가격 재검색과 일치. 조건: X 이미지는 4장 한도라 카드 1~4, 소개글 표시 유지·프로필 링크 유도 금지. 권고: 카드 5·캡션 출처에 디지털데일리 추가. 상세: content/20261124-02/review.md"
@@ -412,12 +426,26 @@
         "by": "auto",
         "date": "2026-11-24",
         "note": "approval=auto, 재검수 통과"
-      }
+      },
+      "posts": [
+        {
+          "channel": "instagram",
+          "type": "POST",
+          "scheduled_at": "2026-11-26T10:00:00+09:00",
+          "post_id": "440265420",
+          "metricool_uuid": "8787172474785251945",
+          "url": null,
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=8787172474785251945"
+        }
+      ],
+      "pending_channels": [
+        "x"
+      ]
     },
     {
       "id": "20261124-03",
       "title": "블프 직구, 200달러 넘으면 전부 세금",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "2차 검수 통과(instagram+x). 훅 '한도 넘으면 전액에 세금'(cover·scene-01 확인), 장면 3·캡션 2번·X에 '미국 특송 200달러, 우편·영양제·식품 150달러', 브리프에 특송 출처 행. '먼저 이것부터' 반영. 조건: 블프 전 게시(IG 11/26 18:00 +09:00, X 11/27 오전까지), 밀리면 사람 판단. 소개글 표시 유지. 권고: 큐 title·브리프 제목의 옛 훅 정리, X에 출처 한 줄. 상세: content/20261124-03/review.md"
@@ -446,7 +474,21 @@
         "by": "auto",
         "date": "2026-11-24",
         "note": "approval=auto, 재검수 통과"
-      }
+      },
+      "posts": [
+        {
+          "channel": "instagram",
+          "type": "REEL",
+          "scheduled_at": "2026-11-26T18:00:00+09:00",
+          "post_id": "440265461",
+          "metricool_uuid": "4880855448308170761",
+          "url": null,
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=4880855448308170761"
+        }
+      ],
+      "pending_channels": [
+        "x"
+      ]
     },
     {
       "id": "20261124-04",
@@ -497,7 +539,7 @@
     {
       "id": "20261124-05",
       "title": "휴대폰 바꿀 때 선택약정 vs 공시지원금, 계산 하나로 끝",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "2차 검수 통과(instagram+x). 단통법 폐지 반영: 공통지원금(옛 공시지원금), 추가지원금 양쪽 각각 더해 비교, 카드 4 '(추가지원금 포함해서)', 뉴시스 2025-07-18 출처, 카드 1 '하나로 비교'. 조건: X 본문에 '중복 안 됨'이 없어 오독 가능하므로 X에는 카드 2를 포함한 카드 1~4를 반드시 첨부, 못 붙이면 X 예약 안 함. 소개글 표시 유지. 권고: X 문장에 '(공통지원금과 선택약정은 중복 안 됨)' 추가, '번호이동 전'→'개통 전'. 상세: content/20261124-05/review.md"
@@ -526,12 +568,26 @@
         "by": "auto",
         "date": "2026-11-24",
         "note": "approval=auto, 재검수 통과"
-      }
+      },
+      "posts": [
+        {
+          "channel": "instagram",
+          "type": "POST",
+          "scheduled_at": "2026-11-28T10:00:00+09:00",
+          "post_id": "440265615",
+          "metricool_uuid": "-8570743252440824554",
+          "url": null,
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-8570743252440824554"
+        }
+      ],
+      "pending_channels": [
+        "x"
+      ]
     },
     {
       "id": "20261124-06",
       "title": "챗GPT 유료, 한국에서 얼마일까",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "2차 검수 통과(instagram+x). Claude 문구 '웹 22달러(부가세 포함), 약 3만 원 안팎(환율 따라)'로 수정, 11월 환율 기준 약 29,500~30,000원과 일치. X 본문(188)도 같은 수치. 제휴 없음, 표시 불필요. 권고: 브리프 Claude 행에 22달러를 직접 담은 출처(gpters 2026.10 또는 claude.com/ko/pricing) 추가, 앱스토어 기준을 Plus에도 명시. 상세: content/20261124-06/review.md"
@@ -560,12 +616,26 @@
         "by": "auto",
         "date": "2026-11-24",
         "note": "approval=auto, 재검수 통과"
-      }
+      },
+      "posts": [
+        {
+          "channel": "instagram",
+          "type": "REEL",
+          "scheduled_at": "2026-11-29T18:00:00+09:00",
+          "post_id": "440265763",
+          "metricool_uuid": "-3748143402903256178",
+          "url": null,
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-3748143402903256178"
+        }
+      ],
+      "pending_channels": [
+        "x"
+      ]
     },
     {
       "id": "20261124-07",
       "title": "결제 화면에서 돈 더 내게 만드는 6가지 수법",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "2차 검수 통과(instagram+x). 장면 5·캡션·X 모두 '규제'로 수정. 6개 유형·2025-02-14 시행이 뉴시스 Q&A·법률신문과 일치. 업체 지목·캡처 없음, 표시 불필요. 조건: 소개글 표시 유지, 프로필 링크 유도 금지. 권고: X에 출처 한 줄. 상세: content/20261124-07/review.md"
@@ -594,7 +664,21 @@
         "by": "auto",
         "date": "2026-11-24",
         "note": "approval=auto, 재검수 통과"
-      }
+      },
+      "posts": [
+        {
+          "channel": "instagram",
+          "type": "REEL",
+          "scheduled_at": "2026-11-30T18:00:00+09:00",
+          "post_id": "440265880",
+          "metricool_uuid": "-5228816537938672968",
+          "url": null,
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-5228816537938672968"
+        }
+      ],
+      "pending_channels": [
+        "x"
+      ]
     }
   ]
 }
