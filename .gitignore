@@ -1,2 +1,7 @@
 node_modules/
 .render.html
+content/*/reel/video.mp4
+content/*/reel/voice-*.mp3
+content/*/reel/pad-*.wav
+content/*/reel/voice.wav
+content/*/reel/audio.txt
