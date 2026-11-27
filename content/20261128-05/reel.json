@@ -5,31 +5,36 @@
   "scenes": [
     {
       "title": "안 쓰는 소액결제,\n한도 0원으로",
-      "seconds": 2.4
+      "seconds": 2.4,
+      "icon": "💳"
     },
     {
       "kicker": "통신사 앱에서 바로",
       "title": "휴대폰 결제 메뉴",
       "body": "SKT T world · KT 마이케이티\nLG U+ 당신의 U+",
-      "seconds": 3.4
+      "seconds": 3.4,
+      "icon": "📲"
     },
     {
       "kicker": "설정",
       "title": "한도 0원 또는 차단",
       "body": "명의자 본인 인증이 필요해요",
-      "seconds": 3
+      "seconds": 3,
+      "icon": "0️⃣"
     },
     {
       "kicker": "알뜰폰이라면",
       "title": "경로가 따로 있어요",
       "body": "가입한 알뜰폰 앱·고객센터에서",
-      "seconds": 2.8
+      "seconds": 2.8,
+      "icon": "📞"
     },
     {
       "kicker": "모르는 결제가 찍혔다면",
-      "title": "결제 업체에 환불 요청\nKISA 118 상담",
+      "title": "통신사·결제 업체에\n이의제기, KISA 118 상담",
       "body": "출처: 통신사 소액결제 안내 정리",
-      "seconds": 3.2
+      "seconds": 3.2,
+      "icon": "🆘"
     }
   ]
 }

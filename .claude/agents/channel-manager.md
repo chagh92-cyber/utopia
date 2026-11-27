@@ -34,4 +34,6 @@ tools: Read, Write, Edit, Glob, Bash
 - `growth.max_posts_per_channel_per_day`를 넘겨 하루에 예약하지 않는다.
 - X는 Typefully 커넥터로 게시한다(social set `config/accounts.json`의 `x.typefully_social_set_id`). 이미지는 `create_media_upload`로
   받은 주소에 `curl -T`로 올린 뒤 최대 4장을 붙인다. 무료 한도가 월 10건이라 `get_social_set_details`의 `publishing_quota`를 먼저 확인한다.
+- 릴스에 음성 해설이 들어갔으면(`render_reel.js` 출력의 "음성 있음") 인스타그램 `instagramData.isAiGenerated: true`,
+  X `made_with_ai: true`로 예약한다.
 - 실패한 예약은 한 번만 다시 시도하고, 또 실패하면 `approved`로 되돌려 보고한다.
