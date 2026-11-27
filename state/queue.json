@@ -780,7 +780,7 @@
     {
       "id": "20261128-02",
       "title": "넷플릭스 같이 쓰면 추가 회원비",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "3차 검수 통과(AI 음성 해설). say 5줄 모두 화면·고객센터와 같고 더 센 주장 없음, 출처 줄 낭독 없음. AI 표시: 캡션 줄 + 플랫폼 표시로 충분. 조건: IG isAiGenerated:true·X made_with_ai:true를 예약에 넣고, 커넥터가 못 받거나 확인 안 되면 그 채널은 approved에서 멈추고 보고. 캡션·X 표시 줄 유지, say·화면 변경 시 재검수, 소개글 표시 유지·프로필 링크 유도 금지. 상세: content/20261128-02/review.md"
@@ -815,11 +815,13 @@
           "channel": "instagram",
           "type": "REEL",
           "scheduled_at": "2026-12-01T18:00:00+09:00",
-          "post_id": "444897456",
+          "post_id": "444933374",
           "metricool_uuid": "-1684565301157213051",
           "auto_publish": true,
           "url": null,
-          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-1684565301157213051"
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-1684565301157213051",
+          "ai_label": true,
+          "media_commit": "6792e9709d81d2a89900c9328e402e2e5fc4250e"
         },
         {
           "channel": "x",
@@ -828,7 +830,9 @@
           "post_id": null,
           "typefully_draft_id": 12243996,
           "url": null,
-          "planner_url": "https://typefully.com/?d=12243996&a=371858"
+          "planner_url": "https://typefully.com/?d=12243996&a=371858",
+          "ai_label": true,
+          "typefully_media_id": "90e7cdad-2b42-48a0-af52-029333515edc"
         }
       ],
       "pending_channels": [],
@@ -837,7 +841,7 @@
     {
       "id": "20261128-03",
       "title": "내 이름으로 몰래 개통된 폰, 무료로 확인",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "3차 검수 통과(AI 음성 해설, 음악 실험). say 5줄 모두 화면·브리프와 같음, 시간 주장 없음, 출처 줄 낭독 없음. 조건(IG, 사용자 앱 게시): 앱 게시 화면에서 AI 표시를 직접 켬(API isAiGenerated 전달 확인 안 됨, 못 켜면 게시 안 함), 음악은 앱 내 라이브러리만·볼륨 낮춰 해설이 들리게, 쓸 수 없는 곡이면 해설만. X: made_with_ai:true, 못 받으면 approved에서 멈춤. 캡션·X 표시 줄 유지, say 변경 시 재검수. 상세: content/20261128-03/review.md"
@@ -873,12 +877,14 @@
           "channel": "instagram",
           "type": "REEL",
           "scheduled_at": "2026-12-02T18:00:00+09:00",
-          "post_id": "444897540",
+          "post_id": "444933451",
           "metricool_uuid": "5504049597544220471",
           "auto_publish": false,
           "url": null,
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=5504049597544220471",
-          "note": "음악 실험: Metricool 앱 알림을 받아 사용자가 인스타 앱에서 음악을 붙여 게시"
+          "note": "음악 실험: Metricool 앱 알림을 받아 사용자가 인스타 앱에서 음악을 붙여 게시",
+          "ai_label": true,
+          "media_commit": "6792e9709d81d2a89900c9328e402e2e5fc4250e"
         },
         {
           "channel": "x",
@@ -887,7 +893,9 @@
           "post_id": null,
           "typefully_draft_id": 12244021,
           "url": null,
-          "planner_url": "https://typefully.com/?d=12244021&a=371858"
+          "planner_url": "https://typefully.com/?d=12244021&a=371858",
+          "ai_label": true,
+          "typefully_media_id": "0d4c719f-08c5-4857-8498-073bc671ba32"
         }
       ],
       "pending_channels": [],
@@ -941,7 +949,7 @@
     {
       "id": "20261128-05",
       "title": "안 쓰는 소액결제, 한도 0원으로",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "3차 검수 통과(AI 음성 해설). say 5줄 모두 화면과 같고 더 센 주장 없음, 출처 줄 낭독 없음. 조건: IG isAiGenerated:true·X made_with_ai:true, 커넥터가 못 받거나 확인 안 되면 그 채널은 approved에서 멈추고 보고. 캡션·X 표시 줄 유지, say 변경 시 재검수, 소개글 표시 유지·프로필 링크 유도 금지. 권고: TTS가 118을 '백십팔'로 읽을 수 있어 다음 렌더 때 say를 '키사 일일팔'로. 상세: content/20261128-05/review.md"
@@ -976,11 +984,13 @@
           "channel": "instagram",
           "type": "REEL",
           "scheduled_at": "2026-12-03T18:00:00+09:00",
-          "post_id": "444897610",
+          "post_id": "444933527",
           "metricool_uuid": "5685310211154330808",
           "auto_publish": true,
           "url": null,
-          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=5685310211154330808"
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=5685310211154330808",
+          "ai_label": true,
+          "media_commit": "6792e9709d81d2a89900c9328e402e2e5fc4250e"
         },
         {
           "channel": "x",
@@ -989,7 +999,9 @@
           "post_id": null,
           "typefully_draft_id": 12244037,
           "url": null,
-          "planner_url": "https://typefully.com/?d=12244037&a=371858"
+          "planner_url": "https://typefully.com/?d=12244037&a=371858",
+          "ai_label": true,
+          "typefully_media_id": "82069354-6f16-4e84-a6c4-ae637ae2f0be"
         }
       ],
       "pending_channels": [],
@@ -998,7 +1010,7 @@
     {
       "id": "20261128-06",
       "title": "알뜰폰 갈아타기 전 이것부터",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "3차 검수 통과(AI 음성 해설, 음악 실험). say는 화면의 조건형('깨질 수', '회수될 수') 유지, 더 센 주장 없음, 출처 줄 낭독 없음. 조건(IG, 사용자 앱 게시): 앱 게시 화면에서 AI 표시를 직접 켬(못 켜면 게시 안 함), 음악은 앱 내 라이브러리만·볼륨 낮춰 해설이 들리게. X: made_with_ai:true, 못 받으면 approved에서 멈춤. 캡션·X 표시 줄 유지, say 변경 시 재검수. 상세: content/20261128-06/review.md"
@@ -1034,12 +1046,14 @@
           "channel": "instagram",
           "type": "REEL",
           "scheduled_at": "2026-12-04T18:00:00+09:00",
-          "post_id": "444897685",
+          "post_id": "444933590",
           "metricool_uuid": "6341767993015750428",
           "auto_publish": false,
           "url": null,
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=6341767993015750428",
-          "note": "음악 실험: Metricool 앱 알림을 받아 사용자가 인스타 앱에서 음악을 붙여 게시"
+          "note": "음악 실험: Metricool 앱 알림을 받아 사용자가 인스타 앱에서 음악을 붙여 게시",
+          "ai_label": true,
+          "media_commit": "6792e9709d81d2a89900c9328e402e2e5fc4250e"
         },
         {
           "channel": "x",
@@ -1048,7 +1062,9 @@
           "post_id": null,
           "typefully_draft_id": 12244043,
           "url": null,
-          "planner_url": "https://typefully.com/?d=12244043&a=371858"
+          "planner_url": "https://typefully.com/?d=12244043&a=371858",
+          "ai_label": true,
+          "typefully_media_id": "8e92cab9-4b74-4a90-a40c-7d733fd487e0"
         }
       ],
       "pending_channels": [],
@@ -1102,7 +1118,7 @@
     {
       "id": "20261128-08",
       "title": "유튜브 프리미엄, 아이폰 앱 결제는 4,600원 더",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "3차 검수 통과(AI 음성 해설). say는 화면과 같고, '5만 5천 원 넘게'는 실제 55,200원보다 적게 말하는 쪽이라 공정, '한 달에 4,600원'도 정확, 라이트는 '웹이나 안드로이드 결제 기준' 유지, 출처 줄 낭독 없음. 조건: IG isAiGenerated:true·X made_with_ai:true, 커넥터가 못 받거나 확인 안 되면 그 채널은 approved에서 멈추고 보고. 캡션·X 표시 줄 유지, say 변경 시 재검수, 소개글 표시 유지·프로필 링크 유도 금지. 상세: content/20261128-08/review.md"
@@ -1137,11 +1153,13 @@
           "channel": "instagram",
           "type": "REEL",
           "scheduled_at": "2026-12-05T18:00:00+09:00",
-          "post_id": "444897781",
+          "post_id": "444933645",
           "metricool_uuid": "6244099510883598911",
           "auto_publish": true,
           "url": null,
-          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=6244099510883598911"
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=6244099510883598911",
+          "ai_label": true,
+          "media_commit": "6792e9709d81d2a89900c9328e402e2e5fc4250e"
         },
         {
           "channel": "x",
@@ -1150,7 +1168,9 @@
           "post_id": null,
           "typefully_draft_id": 12244047,
           "url": null,
-          "planner_url": "https://typefully.com/?d=12244047&a=371858"
+          "planner_url": "https://typefully.com/?d=12244047&a=371858",
+          "ai_label": true,
+          "typefully_media_id": "2da61bd2-1c99-45cd-8d81-1900ec9cf3e9"
         }
       ],
       "pending_channels": [],
@@ -1211,7 +1231,8 @@
         }
       ],
       "pending_channels": [],
-      "voice": true
+      "voice": true,
+      "note": "음성판 재검수 대기. 통과 전까지 인스타·X 예약은 이전 무음판(검수 통과본) 그대로."
     }
   ]
 }
