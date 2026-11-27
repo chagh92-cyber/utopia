@@ -780,7 +780,7 @@
     {
       "id": "20261128-02",
       "title": "넷플릭스 같이 쓰면 추가 회원비",
-      "status": "scheduled",
+      "status": "drafted",
       "review": {
         "result": "passed",
         "notes": "2차 검수 통과(instagram+x, v2 렌더). 1차 필수 수정 3건 반영: 표지 '따로 사는 사람과 보면 한 명당 월 5,000원'(cover 확인), '기본값 광고형' 삭제→'광고형인지 확인', 브리프 넷플릭스 고객센터 출처. 아이콘은 일반 이모지(Noto, OFL), 로고 없음. 2~5장면은 reel.json·렌더러 기준 판단(장면 PNG 없음). 조건: 음성이 들어간 재렌더본은 게시 전 재검수(reel.json에 voice:false 없음), 소개글 표시 유지, 프로필 링크 유도 금지. 권고: 출처 줄 '넷플릭스 고객센터(2026.11)'. 상세: content/20261128-02/review.md"
@@ -831,12 +831,13 @@
           "planner_url": "https://typefully.com/?d=12243996&a=371858"
         }
       ],
-      "pending_channels": []
+      "pending_channels": [],
+      "voice": true
     },
     {
       "id": "20261128-03",
       "title": "내 이름으로 몰래 개통된 폰, 무료로 확인",
-      "status": "scheduled",
+      "status": "drafted",
       "review": {
         "result": "passed",
         "notes": "2차 검수 통과(instagram+x, v2 렌더). '1분'이 장면 1(cover 확인)·캡션·X·브리프·큐 제목에서 모두 빠지고 '무료로 확인'. 아이콘은 일반 이모지(Noto, OFL). 조건: 음악은 인스타그램 앱 내 라이브러리만(안 되면 무음), X는 무음 렌더본, 음성이 들어간 재렌더본은 게시 전 재검수, 소개글 표시 유지·프로필 링크 유도 금지. 상세: content/20261128-03/review.md"
@@ -889,7 +890,8 @@
           "planner_url": "https://typefully.com/?d=12244021&a=371858"
         }
       ],
-      "pending_channels": []
+      "pending_channels": [],
+      "voice": true
     },
     {
       "id": "20261128-04",
@@ -939,7 +941,7 @@
     {
       "id": "20261128-05",
       "title": "안 쓰는 소액결제, 한도 0원으로",
-      "status": "scheduled",
+      "status": "drafted",
       "review": {
         "result": "passed",
         "notes": "2차 검수 통과(instagram+x, v2 렌더·아이콘 추가). 장면 5·캡션 '통신사·결제 업체에 이의제기, KISA 118 상담' 반영, 사실은 1차와 같음. 아이콘은 일반 이모지(Noto, OFL), 통신사 로고 없음. 조건: 음성이 들어간 재렌더본은 게시 전 재검수, 소개글 표시 유지·프로필 링크 유도 금지. 권고: X도 '통신사 이의제기' 추가, 브리프 URL. 상세: content/20261128-05/review.md"
@@ -990,12 +992,13 @@
           "planner_url": "https://typefully.com/?d=12244037&a=371858"
         }
       ],
-      "pending_channels": []
+      "pending_channels": [],
+      "voice": true
     },
     {
       "id": "20261128-06",
       "title": "알뜰폰 갈아타기 전 이것부터",
-      "status": "scheduled",
+      "status": "drafted",
       "review": {
         "result": "passed",
         "notes": "2차 검수 통과(instagram+x, v2 렌더). 장면 3 '결합할인이 깨질 수 있어요'로 브리프·캡션·X와 일치. 아이콘은 일반 이모지(Noto, OFL). 조건: 음악은 인스타그램 앱 내 라이브러리만(안 되면 무음), X는 무음 렌더본, 음성이 들어간 재렌더본은 게시 전 재검수, 소개글 표시 유지·프로필 링크 유도 금지. 상세: content/20261128-06/review.md"
@@ -1048,7 +1051,8 @@
           "planner_url": "https://typefully.com/?d=12244043&a=371858"
         }
       ],
-      "pending_channels": []
+      "pending_channels": [],
+      "voice": true
     },
     {
       "id": "20261128-07",
@@ -1098,7 +1102,7 @@
     {
       "id": "20261128-08",
       "title": "유튜브 프리미엄, 아이폰 앱 결제는 4,600원 더",
-      "status": "scheduled",
+      "status": "drafted",
       "review": {
         "result": "passed",
         "notes": "2차 검수 통과(instagram+x, v2 렌더). 라이트 8,500원에 '웹·안드로이드 결제 기준'(장면 4·캡션·X·브리프), '뮤직 빼고 싸게'/'유튜브 뮤직이 빠진'으로 수정, '앱스토어 구독 먼저 해지' 추가. 계산 4,600·55,200 정확. 아이콘은 일반 이모지(Noto, OFL). ▶️는 주황 재생 버튼, 🍎는 과일이라 로고 아님. 조건: 음성이 들어간 재렌더본은 게시 전 재검수, 소개글 표시 유지·프로필 링크 유도 금지. 상세: content/20261128-08/review.md"
@@ -1149,12 +1153,13 @@
           "planner_url": "https://typefully.com/?d=12244047&a=371858"
         }
       ],
-      "pending_channels": []
+      "pending_channels": [],
+      "voice": true
     },
     {
       "id": "20261128-09",
       "title": "매달 빠져나가는 구독, 한 번에 찾는 법",
-      "status": "scheduled",
+      "status": "drafted",
       "review": {
         "result": "passed",
         "notes": "2차 검수 통과(instagram+x, v2 렌더). 안드로이드 경로를 '결제 및 정기 결제 > 정기 결제'로 장면 3·캡션·X·브리프에서 수정, 고객센터 URL 추가, 넘침 없음. 권고 2건(캡션 '한 번에' 삭제, '해지도 고려') 반영. 아이콘은 일반 이모지(Noto, OFL), 로고 아님. 조건: 음성이 들어간 재렌더본은 게시 전 재검수, 소개글 표시 유지·프로필 링크 유도 금지. 권고: 큐 title·브리프 제목의 '한 번에' 정리. 상세: content/20261128-09/review.md"
@@ -1205,7 +1210,8 @@
           "planner_url": "https://typefully.com/?d=12244048&a=371858"
         }
       ],
-      "pending_channels": []
+      "pending_channels": [],
+      "voice": true
     }
   ]
 }
