@@ -820,11 +820,18 @@
           "auto_publish": true,
           "url": null,
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-1684565301157213051"
+        },
+        {
+          "channel": "x",
+          "type": "video",
+          "scheduled_at": "2026-12-01T21:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12243996,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12243996&a=371858"
         }
       ],
-      "pending_channels": [
-        "x"
-      ]
+      "pending_channels": []
     },
     {
       "id": "20261128-03",
@@ -871,11 +878,18 @@
           "url": null,
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=5504049597544220471",
           "note": "음악 실험: Metricool 앱 알림을 받아 사용자가 인스타 앱에서 음악을 붙여 게시"
+        },
+        {
+          "channel": "x",
+          "type": "video",
+          "scheduled_at": "2026-12-02T21:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12244021,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12244021&a=371858"
         }
       ],
-      "pending_channels": [
-        "x"
-      ]
+      "pending_channels": []
     },
     {
       "id": "20261128-04",
@@ -965,11 +979,18 @@
           "auto_publish": true,
           "url": null,
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=5685310211154330808"
+        },
+        {
+          "channel": "x",
+          "type": "video",
+          "scheduled_at": "2026-12-03T21:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12244037,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12244037&a=371858"
         }
       ],
-      "pending_channels": [
-        "x"
-      ]
+      "pending_channels": []
     },
     {
       "id": "20261128-06",
@@ -1016,11 +1037,18 @@
           "url": null,
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=6341767993015750428",
           "note": "음악 실험: Metricool 앱 알림을 받아 사용자가 인스타 앱에서 음악을 붙여 게시"
+        },
+        {
+          "channel": "x",
+          "type": "video",
+          "scheduled_at": "2026-12-04T21:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12244043,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12244043&a=371858"
         }
       ],
-      "pending_channels": [
-        "x"
-      ]
+      "pending_channels": []
     },
     {
       "id": "20261128-07",
@@ -1110,11 +1138,18 @@
           "auto_publish": true,
           "url": null,
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=6244099510883598911"
+        },
+        {
+          "channel": "x",
+          "type": "video",
+          "scheduled_at": "2026-12-05T21:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12244047,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12244047&a=371858"
         }
       ],
-      "pending_channels": [
-        "x"
-      ]
+      "pending_channels": []
     },
     {
       "id": "20261128-09",
@@ -1159,11 +1194,18 @@
           "auto_publish": true,
           "url": null,
           "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-4068551303578302820"
+        },
+        {
+          "channel": "x",
+          "type": "video",
+          "scheduled_at": "2026-12-06T21:00:00+09:00",
+          "post_id": null,
+          "typefully_draft_id": 12244048,
+          "url": null,
+          "planner_url": "https://typefully.com/?d=12244048&a=371858"
         }
       ],
-      "pending_channels": [
-        "x"
-      ]
+      "pending_channels": []
     }
   ]
 }
