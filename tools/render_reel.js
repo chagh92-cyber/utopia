@@ -11,6 +11,7 @@
 //   "notice": "표시 문구(선택). 모든 장면 위쪽에 띠로 표시",
 //   "theme": "dark" | "light",
 //   "accent": "#5b8cff",
+//   "motion": true,                          // 선택, 기본 true: 천천히 확대 + 본문이 뒤늦게 등장
 //   "scenes": [
 //     { "kicker": "작은 머리말(선택)", "title": "큰 글자", "body": "본문(선택)", "seconds": 2.5 }
 //   ]
@@ -42,7 +43,7 @@ function fontFaces() {
     .join('\n');
 }
 
-function sceneHtml(spec, scene, index, total) {
+function sceneHtml(spec, scene, index, total, hideBody = false) {
   const dark = spec.theme !== 'light';
   const bg = dark ? '#121216' : '#f7f5f0';
   const fg = dark ? '#f4f4f6' : '#16161a';
@@ -71,7 +72,7 @@ ${spec.notice ? `<div class="notice">${esc(spec.notice)}</div>` : '<div style="h
 <div class="main">
   ${scene.kicker ? `<div class="kicker">${esc(scene.kicker)}</div>` : ''}
   <div class="title">${lines(scene.title)}</div>
-  ${scene.body ? `<div class="body">${lines(scene.body)}</div>` : ''}
+  ${scene.body ? `<div class="body" style="${hideBody ? 'visibility:hidden' : ''}">${lines(scene.body)}</div>` : ''}
 </div>
 <div class="foot">${esc(spec.brand)}</div>
 </body></html>`;
@@ -114,7 +115,16 @@ async function main() {
       if (!fits) overflowed.push(i + 1);
       const file = path.join(outDir, `scene-${String(i + 1).padStart(2, '0')}.png`);
       await page.screenshot({ path: file });
-      frames.push(file);
+      // 본문이 있으면 제목만 보이는 첫 상태도 만든다(본문이 뒤늦게 나타나는 효과).
+      let pre = null;
+      if (spec.scenes[i].body && spec.motion !== false) {
+        fs.writeFileSync(tmp, sceneHtml(spec, spec.scenes[i], i, spec.scenes.length, true));
+        await page.goto(pathToFileURL(tmp).href);
+        await page.evaluate(() => document.fonts.ready);
+        pre = path.join(outDir, `scene-${String(i + 1).padStart(2, '0')}-pre.png`);
+        await page.screenshot({ path: pre });
+      }
+      frames.push({ full: file, pre });
     }
   } finally {
     await browser.close();
@@ -125,20 +135,35 @@ async function main() {
     process.exit(2);
   }
 
-  // 장면마다 짧은 페이드 인·아웃을 넣은 조각을 만들고 이어 붙인다.
+  // 장면마다 조각을 만든다: 천천히 확대(움직임) + 본문 뒤늦게 등장 + 짧은 페이드.
   const parts = [];
-  spec.scenes.forEach((s, i) => {
-    const part = path.join(outDir, `part-${i}.mp4`);
-    const d = s.seconds;
+  const zoomSeg = (img, d, out, fadeIn, fadeOut, z0, z1) => {
+    const n = Math.max(1, Math.round(d * FPS));
+    const z = `${z0}+(${z1}-${z0})*on/${n}`;
     const vf = [
-      `scale=${W}:${H}`,
+      `scale=${W * 2}:${H * 2}`,
+      `zoompan=z='${z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=${n}:s=${W}x${H}:fps=${FPS}`,
       'format=yuv420p',
-      i === 0 ? null : `fade=t=in:st=0:d=${FADE}`,
-      `fade=t=out:st=${Math.max(0, d - FADE)}:d=${FADE}`,
+      fadeIn ? `fade=t=in:st=0:d=${FADE}` : null,
+      fadeOut ? `fade=t=out:st=${Math.max(0, d - FADE)}:d=${FADE}` : null,
     ].filter(Boolean).join(',');
-    execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-loop', '1', '-t', String(d), '-i', frames[i],
-      '-vf', vf, '-r', String(FPS), '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p', part]);
-    parts.push(part);
+    execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', img, '-vf', vf, '-frames:v', String(n),
+      '-r', String(FPS), '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p', out]);
+    parts.push(out);
+  };
+  const motion = spec.motion !== false;
+  spec.scenes.forEach((s, i) => {
+    const d = s.seconds;
+    const { full, pre } = frames[i];
+    const zA = 1.0, zB = motion ? 1.035 : 1.0;
+    if (pre) {
+      const dPre = Math.min(0.9, d * 0.35);
+      const zMid = zA + (zB - zA) * (dPre / d);
+      zoomSeg(pre, dPre, path.join(outDir, `part-${i}a.mp4`), i !== 0, false, zA, zMid);
+      zoomSeg(full, d - dPre, path.join(outDir, `part-${i}b.mp4`), false, true, zMid, zB);
+    } else {
+      zoomSeg(full, d, path.join(outDir, `part-${i}.mp4`), i !== 0, true, zA, zB);
+    }
   });
   const list = path.join(outDir, 'parts.txt');
   fs.writeFileSync(list, parts.map((p) => `file '${p}'`).join('\n'));
@@ -146,7 +171,8 @@ async function main() {
   execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', list,
     '-c', 'copy', '-movflags', '+faststart', out]);
   // 표지 이미지는 첫 장면(훅)을 쓴다.
-  fs.copyFileSync(frames[0], path.join(outDir, 'cover.png'));
+  fs.copyFileSync(frames[0].full, path.join(outDir, 'cover.png'));
+  for (const f of frames) if (f.pre) fs.rmSync(f.pre, { force: true });
   for (const p of [...parts, list]) fs.rmSync(p, { force: true });
   console.log(out);
   console.log(`총 ${total}초, 장면 ${spec.scenes.length}개`);

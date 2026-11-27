@@ -1,0 +1,34 @@
+{
+  "brand": "@salmal.tech",
+  "theme": "dark",
+  "accent": "#5b8cff",
+  "scenes": [
+    {
+      "title": "같은 유튜브 프리미엄,\n아이폰 앱 결제는\n4,600원 더",
+      "seconds": 2.6
+    },
+    {
+      "kicker": "웹·안드로이드 결제",
+      "title": "월 14,900원",
+      "seconds": 2.4
+    },
+    {
+      "kicker": "아이폰 앱 결제",
+      "title": "월 19,500원",
+      "body": "1년이면 55,200원 차이",
+      "seconds": 3
+    },
+    {
+      "kicker": "광고만 없애면",
+      "title": "라이트 월 8,500원",
+      "body": "유튜브 뮤직은 빠져요",
+      "seconds": 3
+    },
+    {
+      "kicker": "가족 요금제는?",
+      "title": "한국은 아직 없어요",
+      "body": "구글 고객센터 기준\n\n출처: LG U+ 매거진, 뉴시스(2026.02)",
+      "seconds": 3
+    }
+  ]
+}

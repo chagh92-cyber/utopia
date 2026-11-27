@@ -1,0 +1,35 @@
+{
+  "brand": "@salmal.tech",
+  "theme": "dark",
+  "accent": "#5b8cff",
+  "scenes": [
+    {
+      "title": "내 이름으로\n폰이 개통됐는지\n1분 확인",
+      "seconds": 2.4
+    },
+    {
+      "kicker": "엠세이퍼(msafer.or.kr)",
+      "title": "무료 조회",
+      "body": "한국정보통신진흥협회(KAIT) 운영\nPASS 앱에서도 가능",
+      "seconds": 3.2
+    },
+    {
+      "kicker": "가입사실현황조회",
+      "title": "모르는 번호가 있으면",
+      "body": "바로 해당 통신사에 신고",
+      "seconds": 3
+    },
+    {
+      "kicker": "주의",
+      "title": "조회 ≠ 차단",
+      "body": "개통을 막으려면 가입제한을 따로 신청\n내가 새로 개통할 땐 해제가 필요해요",
+      "seconds": 3.6
+    },
+    {
+      "kicker": "오늘 한 번",
+      "title": "부모님 명의도\n같이 확인",
+      "body": "출처: 엠세이퍼 안내 정리(2026)",
+      "seconds": 2.8
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "brand": "@salmal.tech",
+  "theme": "dark",
+  "accent": "#5b8cff",
+  "scenes": [
+    {
+      "title": "매달 빠져나가는 구독,\n다 알고 계세요?",
+      "seconds": 2.4
+    },
+    {
+      "kicker": "아이폰",
+      "title": "설정 > 내 이름 > 구독",
+      "body": "Apple로 결제한 구독이 다 보여요",
+      "seconds": 3
+    },
+    {
+      "kicker": "안드로이드",
+      "title": "Play 스토어 > 프로필\n> 결제 및 구독",
+      "body": "구독 메뉴에서 확인·취소",
+      "seconds": 3.2
+    },
+    {
+      "kicker": "여기 없는 구독은",
+      "title": "카드 명세서에서",
+      "body": "웹·카드로 직접 결제한 건\n앱스토어 목록에 안 나와요",
+      "seconds": 3.2
+    },
+    {
+      "kicker": "정리",
+      "title": "한 달 안 썼으면\n해지",
+      "body": "출처: Apple 지원, Google Play 고객센터",
+      "seconds": 2.6
+    }
+  ]
+}

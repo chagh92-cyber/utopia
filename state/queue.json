@@ -731,6 +731,230 @@
         }
       ],
       "pending_channels": []
+    },
+    {
+      "id": "20261128-01",
+      "title": "구독 4개, 1년이면 49만 원",
+      "status": "drafted",
+      "created": "2026-11-28",
+      "source": "OTT 요금 정리, LG U+ 매거진, 뉴시스",
+      "share_reason": "내 구독료를 1년 단위로 처음 계산해 보게 만드는 정리라 저장·공유가 잘 된다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 3,
+        "total": 16
+      },
+      "channels": [
+        "instagram"
+      ],
+      "format": "carousel",
+      "pillar": "요금·구독 비교",
+      "referral": false,
+      "planned_at": "2026-12-01T10:00:00+09:00",
+      "brief": "content/20261128-01/brief.md",
+      "updated": "2026-11-28"
+    },
+    {
+      "id": "20261128-02",
+      "title": "넷플릭스 같이 쓰면 추가 회원비",
+      "status": "drafted",
+      "created": "2026-11-28",
+      "source": "넷플릭스 요금 정리 블로그",
+      "share_reason": "가족·친구와 넷플릭스를 나눠 쓰는 사람이 많아 공유가 기대된다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 3,
+        "total": 16
+      },
+      "channels": [
+        "instagram",
+        "x"
+      ],
+      "format": "reel",
+      "pillar": "요금·구독 비교",
+      "referral": false,
+      "planned_at": "2026-12-01T18:00:00+09:00",
+      "brief": "content/20261128-02/brief.md",
+      "updated": "2026-11-28"
+    },
+    {
+      "id": "20261128-03",
+      "title": "내 이름으로 몰래 개통된 폰, 1분 확인",
+      "status": "drafted",
+      "created": "2026-11-28",
+      "source": "엠세이퍼 안내 정리",
+      "share_reason": "부모님 명의 확인 등 가족에게 보내기 좋은 안전 정보.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 3,
+        "total": 16
+      },
+      "channels": [
+        "instagram",
+        "x"
+      ],
+      "format": "reel",
+      "pillar": "함정 경고",
+      "referral": false,
+      "planned_at": "2026-12-02T18:00:00+09:00",
+      "brief": "content/20261128-03/brief.md",
+      "updated": "2026-11-28",
+      "music_test": true
+    },
+    {
+      "id": "20261128-04",
+      "title": "중고폰 팔기 전 이 순서대로",
+      "status": "drafted",
+      "created": "2026-11-28",
+      "source": "Apple 지원, 체크리스트 정리",
+      "share_reason": "중고폰 팔 때마다 다시 찾는 체크리스트라 저장이 잘 된다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 3,
+        "total": 16
+      },
+      "channels": [
+        "instagram"
+      ],
+      "format": "carousel",
+      "pillar": "함정 경고",
+      "referral": false,
+      "planned_at": "2026-12-03T10:00:00+09:00",
+      "brief": "content/20261128-04/brief.md",
+      "updated": "2026-11-28"
+    },
+    {
+      "id": "20261128-05",
+      "title": "안 쓰는 소액결제, 한도 0원으로",
+      "status": "drafted",
+      "created": "2026-11-28",
+      "source": "통신사 소액결제 안내 정리",
+      "share_reason": "피해 예방 정보라 가족에게 보내기 좋다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 3,
+        "total": 16
+      },
+      "channels": [
+        "instagram",
+        "x"
+      ],
+      "format": "reel",
+      "pillar": "함정 경고",
+      "referral": false,
+      "planned_at": "2026-12-03T18:00:00+09:00",
+      "brief": "content/20261128-05/brief.md",
+      "updated": "2026-11-28"
+    },
+    {
+      "id": "20261128-06",
+      "title": "알뜰폰 갈아타기 전 이것부터",
+      "status": "drafted",
+      "created": "2026-11-28",
+      "source": "공감신문, 알뜰폰 가이드",
+      "share_reason": "알뜰폰을 고민하는 사람이 많아 저장·공유가 기대된다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 3,
+        "total": 16
+      },
+      "channels": [
+        "instagram",
+        "x"
+      ],
+      "format": "reel",
+      "pillar": "요금·구독 비교",
+      "referral": false,
+      "planned_at": "2026-12-04T18:00:00+09:00",
+      "brief": "content/20261128-06/brief.md",
+      "updated": "2026-11-28",
+      "music_test": true
+    },
+    {
+      "id": "20261128-07",
+      "title": "직구한다면 개인통관고유부호 유효기간 확인",
+      "status": "drafted",
+      "created": "2026-11-28",
+      "source": "정책브리핑, KB",
+      "share_reason": "연말 직구 시즌이라 직구하는 지인에게 보내기 좋다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 3,
+        "total": 16
+      },
+      "channels": [
+        "instagram"
+      ],
+      "format": "carousel",
+      "pillar": "함정 경고",
+      "referral": false,
+      "planned_at": "2026-12-05T10:00:00+09:00",
+      "brief": "content/20261128-07/brief.md",
+      "updated": "2026-11-28"
+    },
+    {
+      "id": "20261128-08",
+      "title": "유튜브 프리미엄, 아이폰 앱 결제는 4,600원 더",
+      "status": "drafted",
+      "created": "2026-11-28",
+      "source": "LG U+ 매거진, 뉴시스",
+      "share_reason": "결제 경로만 바꿔도 아끼는 정보라 공유가 기대된다.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 3,
+        "total": 16
+      },
+      "channels": [
+        "instagram",
+        "x"
+      ],
+      "format": "reel",
+      "pillar": "요금·구독 비교",
+      "referral": false,
+      "planned_at": "2026-12-05T18:00:00+09:00",
+      "brief": "content/20261128-08/brief.md",
+      "updated": "2026-11-28"
+    },
+    {
+      "id": "20261128-09",
+      "title": "매달 빠져나가는 구독, 한 번에 찾는 법",
+      "status": "drafted",
+      "created": "2026-11-28",
+      "source": "Apple 지원, Google Play",
+      "share_reason": "연말 지출 정리 시기에 맞는 실용 정보.",
+      "score": {
+        "share": 4,
+        "audience": 4,
+        "effort": 5,
+        "trend": 3,
+        "total": 16
+      },
+      "channels": [
+        "instagram",
+        "x"
+      ],
+      "format": "reel",
+      "pillar": "함정 경고",
+      "referral": false,
+      "planned_at": "2026-12-06T18:00:00+09:00",
+      "brief": "content/20261128-09/brief.md",
+      "updated": "2026-11-28"
     }
   ]
 }
