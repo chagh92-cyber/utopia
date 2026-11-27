@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(node tools/:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(curl:*)",
+      "mcp__Metricool_Social_Media_Management__getScheduledPosts",
+      "mcp__Metricool_Social_Media_Management__getBrandSettings",
+      "mcp__Metricool_Social_Media_Management__getAnalyticsDataByMetrics",
+      "mcp__Metricool_Social_Media_Management__getAnalyticsAvailableMetrics",
+      "mcp__Metricool_Social_Media_Management__getBestTimeToPostByNetwork",
+      "mcp__Metricool_Social_Media_Management__createScheduledPost",
+      "mcp__Metricool_Social_Media_Management__updateScheduledPost",
+      "mcp__Typefully_-_Social_Media_Scheduler__list_drafts",
+      "mcp__Typefully_-_Social_Media_Scheduler__get_social_set_details",
+      "mcp__Typefully_-_Social_Media_Scheduler__get_media_status",
+      "mcp__Typefully_-_Social_Media_Scheduler__create_media_upload",
+      "mcp__Typefully_-_Social_Media_Scheduler__create_draft",
+      "mcp__Typefully_-_Social_Media_Scheduler__edit_draft"
+    ]
+  }
+}
