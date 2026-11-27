@@ -36,5 +36,6 @@
       "seconds": 3,
       "icon": "🔎"
     }
-  ]
+  ],
+  "voice": false
 }

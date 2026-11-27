@@ -24,6 +24,7 @@ tools: Read, Write, Edit, Glob, Bash
 `campaign.json`의 `growth.formats_priority`가 릴스를 앞에 두면, 인스타그램은 릴스부터 만든다.
 릴스는 `content/<id>/reel.json`(형식은 `tools/render_reel.js` 맨 위 설명)을 쓰고 `npm run reel -- content/<id>/reel.json`으로
 `reel/reel.mp4`를 만든다. 첫 장면은 1~2초 안에 읽히는 훅 한 문장, 전체 15~30초, 장면당 한 가지 숫자나 주장만 담는다.
+음성 해설을 쓸 때는 장면마다 `say`를 따로 써서 출처 줄 같은 화면용 글을 읽지 않게 한다. 음성을 넣거나 빼면 검수를 다시 받는다.
 같은 소재로 훅을 다르게 쓴 두 번째 버전을 `reel-b.json`으로 만들어 두면 시험에 쓴다.
 
 카드뉴스의 `brand`는 계정 이름(`config/accounts.json`의 `brand.name`), 색은 브랜드 색을 쓴다.
