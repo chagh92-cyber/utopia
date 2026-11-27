@@ -287,8 +287,9 @@
           "scheduled_at": "2026-11-25T09:00:00+09:00",
           "post_id": null,
           "typefully_draft_id": 12159952,
-          "url": null,
-          "planner_url": "https://typefully.com/?d=12159952&a=371858"
+          "url": "https://x.com/salmal_tech/status/2125379013879419098",
+          "planner_url": "https://typefully.com/?d=12159952&a=371858",
+          "published_at": "2026-11-25T09:00:00+09:00"
         }
       ],
       "pending_channels": []
@@ -338,8 +339,9 @@
           "scheduled_at": "2026-11-26T12:00:00+09:00",
           "post_id": null,
           "typefully_draft_id": 12159961,
-          "url": null,
-          "planner_url": "https://typefully.com/?d=12159961&a=371858"
+          "url": "https://x.com/salmal_tech/status/2125786897289302251",
+          "planner_url": "https://typefully.com/?d=12159961&a=371858",
+          "published_at": "2026-11-26T12:00:00+09:00"
         }
       ],
       "pending_channels": [
@@ -383,11 +385,15 @@
         {
           "channel": "instagram",
           "type": "REEL",
-          "scheduled_at": "2026-11-25T18:00:00+09:00",
-          "post_id": "440265220",
+          "scheduled_at": "2026-11-28T18:00:00+09:00",
+          "post_id": "443885684",
           "metricool_uuid": "-5339690877764877214",
           "url": null,
-          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-5339690877764877214"
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-5339690877764877214",
+          "failed": {
+            "at": "2026-11-25T18:00:00+09:00",
+            "reason": "The Instagram account is restricted."
+          }
         },
         {
           "channel": "x",
@@ -395,8 +401,9 @@
           "scheduled_at": "2026-11-25T21:00:00+09:00",
           "post_id": null,
           "typefully_draft_id": 12160544,
-          "url": null,
-          "planner_url": "https://typefully.com/?d=12160544&a=371858"
+          "url": "https://x.com/salmal_tech/status/2125560664118940151",
+          "planner_url": "https://typefully.com/?d=12160544&a=371858",
+          "published_at": "2026-11-25T21:00:00+09:00"
         }
       ],
       "pending_channels": []
@@ -441,8 +448,9 @@
           "scheduled_at": "2026-11-26T10:00:00+09:00",
           "post_id": "440265420",
           "metricool_uuid": "8787172474785251945",
-          "url": null,
-          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=8787172474785251945"
+          "url": "https://www.instagram.com/p/DgL4XjtiPDP/",
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=8787172474785251945",
+          "published_at": "2026-11-26T10:00:00+09:00"
         },
         {
           "channel": "x",
@@ -496,8 +504,9 @@
           "scheduled_at": "2026-11-26T18:00:00+09:00",
           "post_id": "440265461",
           "metricool_uuid": "4880855448308170761",
-          "url": null,
-          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=4880855448308170761"
+          "url": "https://www.instagram.com/reel/DgMvWKevYUM/",
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=4880855448308170761",
+          "published_at": "2026-11-26T18:00:00+09:00"
         },
         {
           "channel": "x",
@@ -505,8 +514,9 @@
           "scheduled_at": "2026-11-26T21:00:00+09:00",
           "post_id": null,
           "typefully_draft_id": 12160546,
-          "url": null,
-          "planner_url": "https://typefully.com/?d=12160546&a=371858"
+          "url": "https://x.com/salmal_tech/status/2125923074596032691",
+          "planner_url": "https://typefully.com/?d=12160546&a=371858",
+          "published_at": "2026-11-26T21:00:00+09:00"
         }
       ],
       "pending_channels": []
