@@ -1179,7 +1179,7 @@
     {
       "id": "20261128-09",
       "title": "매달 빠져나가는 구독 찾는 법",
-      "status": "approved",
+      "status": "scheduled",
       "review": {
         "result": "passed",
         "notes": "4차 검수 통과(AI 음성 해설). scenes[3].say 수정 확인, 화면·브리프와 같은 방향, 나머지 say 4줄 같음, 출처 줄 낭독 없음. 조건: 12/6 예약(IG 444897835, X 12244048)을 바꿀 때는 음성판 mp4, 현재 캡션·X 본문(AI 음성 줄), IG isAiGenerated:true·X made_with_ai:true를 한꺼번에 교체하고 예약 결과에서 확인. 시간 안에 못 바꾸거나 표시 값이 안 받아지면 무음판(2차 통과본)을 그대로 두되, 무음판에 'AI 음성' 문구를 붙이지 않음. say·화면 변경 시 재검수, 소개글 표시 유지·프로필 링크 유도 금지. 상세: content/20261128-09/review.md"
@@ -1214,11 +1214,15 @@
           "channel": "instagram",
           "type": "REEL",
           "scheduled_at": "2026-12-06T18:00:00+09:00",
-          "post_id": "444897835",
+          "post_id": "444964748",
           "metricool_uuid": "-4068551303578302820",
           "auto_publish": true,
           "url": null,
-          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-4068551303578302820"
+          "planner_url": "https://app.metricool.com/planner/calendar?blogId=8202229&openWithPostUuid=-4068551303578302820",
+          "ai_label": true,
+          "voice": "ko-KR-Chirp3-HD-Aoede",
+          "media_commit": "e5f565059a34827126aeb3673ebaa64bf2542956",
+          "swapped": "2026-11-28 음성판으로 교체"
         },
         {
           "channel": "x",
@@ -1227,7 +1231,11 @@
           "post_id": null,
           "typefully_draft_id": 12244048,
           "url": null,
-          "planner_url": "https://typefully.com/?d=12244048&a=371858"
+          "planner_url": "https://typefully.com/?d=12244048&a=371858",
+          "typefully_media_id": "d0a2b91c-73fc-4f75-bad0-6204a38b5ef0",
+          "ai_label": true,
+          "voice": "ko-KR-Chirp3-HD-Aoede",
+          "swapped": "2026-11-28 음성판으로 교체"
         }
       ],
       "pending_channels": [],
