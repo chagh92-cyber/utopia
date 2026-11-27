@@ -13,8 +13,8 @@ const ENDPOINT = 'https://texttospeech.googleapis.com/v1/text:synthesize';
 function synthesize(text, outFile, { voiceName, speakingRate } = {}) {
   const body = JSON.stringify({
     input: { text },
-    voice: { languageCode: 'ko-KR', name: voiceName || 'ko-KR-Neural2-A' },
-    audioConfig: { audioEncoding: 'MP3', speakingRate: speakingRate || 1.12 },
+    voice: { languageCode: 'ko-KR', name: voiceName || 'ko-KR-Chirp3-HD-Aoede' },
+    audioConfig: { audioEncoding: 'MP3', speakingRate: speakingRate || 1.05 },
   });
   const key = process.env.GOOGLE_TTS_API_KEY || 'proxy-injected';
   let raw;

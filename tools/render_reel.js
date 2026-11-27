@@ -15,7 +15,7 @@
 //   "theme": "dark" | "light",
 //   "accent": "#5b8cff",
 //   "voice": true,                       // 선택, 기본 true. 해설 음성 사용
-//   "voiceName": "ko-KR-Neural2-A",      // 선택
+//   "voiceName": "ko-KR-Chirp3-HD-Aoede", // 선택(기본: 사용자가 고른 목소리)
 //   "scenes": [
 //     {
 //       "icon": "📺",                     // 선택. 이모지 그림(튀어나오며 등장, 둥실 움직임)
