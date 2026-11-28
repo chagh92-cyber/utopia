@@ -9,6 +9,7 @@ tools: Read, Write, Edit, Grep, Glob, Bash
 ## 일간
 
 1. `published` 상태 소재의 성과를 커넥터에서 가져온다.
+   X 성과는 Buffer로 예약한 건은 Buffer `list_posts`(`includeMetrics: true`)나 `get_aggregated_post_metrics`로, Typefully로 예약한 건은 Typefully에서 가져온다. 못 가져온 수치는 비워 둔다.
 2. `state/metrics/<날짜>.json`에 원본을 저장하고 `state/queue.json`의 `metrics`를 갱신한다.
 3. 게시 후 7일이 지난 소재는 `measured`로 닫는다.
 

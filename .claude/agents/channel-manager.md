@@ -32,8 +32,15 @@ tools: Read, Write, Edit, Glob, Bash
 - 릴스는 `content/<id>/reel/reel.mp4`의 공개 주소(`media_base_url` 기준)를 넘기고 `instagramData.type`은
   `growth.try_trial_reels`가 true면 먼저 `TRIAL_REEL`, 거절되면 `REEL`로 다시 시도한다. 결과를 `posts`에 적는다.
 - `growth.max_posts_per_channel_per_day`를 넘겨 하루에 예약하지 않는다.
-- X는 Typefully 커넥터로 게시한다(social set `config/accounts.json`의 `x.typefully_social_set_id`). 이미지는 `create_media_upload`로
-  받은 주소에 `curl -T`로 올린 뒤 최대 4장을 붙인다. 무료 한도가 월 10건이라 `get_social_set_details`의 `publishing_quota`를 먼저 확인한다.
+- X는 두 경로를 쓴다. 글 하나는 한 경로로만 예약하고, 같은 글을 두 경로에 중복으로 넣지 않는다.
+  1. **Buffer(1순위)**: `config/accounts.json`의 `x.buffer_channel_id`(조직 `x.buffer_organization_id`). `create_post`에
+     `schedulingType: automatic`, `mode: customScheduled`, `dueAt`(+09:00)를 쓰고, 영상·이미지는 `assets`에 공개 주소(`media_base_url`, 커밋 고정)로 넘긴다.
+     무료 플랜은 대기 예약 10건까지라 먼저 `list_posts`(status scheduled)로 남은 자리를 센다.
+  2. **Typefully(2순위)**: Buffer 자리가 없거나 Buffer 예약이 실패했을 때. social set `x.typefully_social_set_id`. 이미지·영상은 `create_media_upload`로
+     받은 주소에 `curl -T`로 올린 뒤 붙인다. 무료 한도가 월 10건이라 `get_social_set_details`의 `publishing_quota`를 먼저 확인한다.
+  3. 둘 다 자리가 없으면 그 건은 `pending_channels`에 남기고 보고한다.
+  - `posts`에 어느 경로로 넣었는지(`via: buffer|typefully`)와 게시물 id를 적는다.
+  - 즉시 게시(Buffer `shareNow`, Typefully `publish_at: now`)는 사용자가 직접 요청할 때만 쓴다.
 - 릴스에 음성 해설이 들어갔으면(`render_reel.js` 출력의 "음성 있음") 인스타그램 `instagramData.isAiGenerated: true`,
-  X `made_with_ai: true`로 예약한다.
+  X는 Buffer `metadata.twitter.isAiGenerated: true`, Typefully `made_with_ai: true`로 예약한다.
 - 실패한 예약은 한 번만 다시 시도하고, 또 실패하면 `approved`로 되돌려 보고한다.
